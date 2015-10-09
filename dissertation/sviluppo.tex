@@ -1,13 +1,16 @@
-\chapter{Sviluppo}
+\chapter{Sviluppo Piattaforma}
 \label{chp:sviluppo}
 
 L'analisi dei requisiti ha evidenziato la necessità di un sito web in cui esporre e descrivere al cliente i servizi offerti, aggiornato e popolato da un componente del team di {\fem} senza per forza conoscenze e capacità tecniche informatiche; si é scelto quindi WordPress, un CMS molto diffuso.
 
-Per la gestione degli ordini sia dal lato cliente che dal lato admin invece é stata progettata un soluzione su misura, utilizzando \emph{Django}, un web framework per lo sviluppo di applicazioni web. Lo sviluppo di essa é stato suddiviso in due parti in modo da distribuire il carico di lavoro, io mi sono occupato del lato front-end e due colleghi del lato back-end.
+Per la gestione degli ordini sia dal lato cliente che dal lato admin invece é stata progettata un soluzione su misura, utilizzando \emph{Django}, un web framework per lo sviluppo di applicazioni web. 
 
-In questo capitolo verrà analizzata tutta la catena produdditvavadlgja da ... a ... .
+La mole di lavoro da compiere ha creato la necessita di dividere i compiti, così io mi sono occupato dello sviluppo lato front-end dell'applicativo e del controllo del CMS {\wp}; il lato back-end e server é stato invece compito di due colleghi.
 
-\section{{\wp}}
+In questo capitolo verranno descritti ed analizzati tutti i passi fino alla messa online del sito con particolare attenzione al lato front-end. Nel dettaglio la sezione \ref{sec:wp} descriverà le azioni per impostare correttamente il CMS, la sezione \ref{sec:back} fornirà una panoramica sul lato back-end, mentre il front-end sarà descritto più dettagliatamente nella sezione \ref{sec:front}.
+
+% --WordPress--
+\section{WordPress}
 \label{sec:wp}
 
 {\wp} è una piattaforma software di content management system (CMS) ovvero un programma installato sul server che consente la creazione, gestione, distribuzione e manutenzione di un sito Internet \cite{wordpress}. É un progetto open-source creato da Matt Mullenweg e distribuito con la licenza GNU General Public License; é sviluppato in PHP con appoggio a MySQL come gestore di database.
@@ -55,3 +58,66 @@ Cliccando sul tasto \textsf{Ordini} si può accedere alla piattaforma personaliz
 \label{fig:homepage-ordini}
 \end{center}
 
+% --Back-end--
+\section{Back-end}
+\label{sec:back}
+Per lo sviluppo della piattaforma web le tecnologie utilizzate e descritte in seguito sono state:
+\begin{itemize}
+\item Django come web framework;
+\item MySQL e SQLite per il database;
+\item HTML, CSS, Javascript per il front-end;
+\end{itemize}
+
+\subsection{Django}
+\label{django}
+\emph{Django} è un web framework open source per lo sviluppo di applicazioni web, scritto in linguaggio \emph{Python}; il progetto è sviluppato dalla "Django Software Foundation" (DSF), un'organizzazione indipendente senza scopo di lucro \cite{django}. É stato inizialemente concepito per gestire diversi siti di notizie, ed in seguito distributo con una licenza BSD (Berkeley Software Distribution) a luglio 2005.
+
+La scelta di Django é ricaduta grazie alle molte proprietà: dall'astrazione del database relazionale ad oggetti, alla
+possibilità di installare funzionalità attraverso plugin, dalla robusta API per la gestione del database, al sistema di "view generiche" che evitano la stesura di codice ripetitivo per determinati casi comuni e soprattutto il sistema di template  e gestore di URL basate su espressioni regolari. Django offre inoltre un efficace supporto per localizzazione, incluse traduzioni dell'interfaccia amministrativa in molte lingue.
+
+\subsection{Configurazione}
+Il primo passo é stato l'installazione delle componenti di Django, attraverso la creazione del progetto, con il comando a terminale:
+\begin{verbatim}
+$ django-admin startproject mysite
+\end{verbatim}
+
+così da ottenere la seguente configurazione di file:
+\begin{small}
+\begin{verbatim}
+mysite/
+    manage.py
+    mysite/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+\end{verbatim}
+\end{small}
+
+Abbiamo quindi impostato nel file \texttt{settings.py} informazioni tra cui il database scelto, e le \texttt{INSTALLED\_APPS} in cui sono incluse di default:
+
+\begin{itemize}
+\item \texttt{django.contrib.admin} - il pannello admin del sito
+\item \texttt{django.contrib.auth} - il sistema di autenticazione
+\item \texttt{django.contrib.sessions} - il framework per il controllo delle sessioni
+\item \texttt{django.contrib.messages} - il framework di controllo per i messaggi
+\item \texttt{django.contrib.staticfiles} - il gestore dei "file statici"
+\end{itemize}
+
+\subsection{Creazione}
+
+Per la fase di sviluppo é stato necessario avviare il \emph{development server} attraverso il comando da terminale:
+\begin{verbatim}
+$ python manage.py runserver
+\end{verbatim}
+per simulare il comportamento del server in modo da generare il sito all'indirizzo \texttt{http://127.0.0.1:8000/} .
+
+Una componente fondamentale é rappresentata dai \emph{modelli}, associabili concettualmente alle classi in Java; in funzione alle richieste avanzate da {\fem} il diagramma in figura (BOH) rappresenta come abbiamo impostato i modelli con i relativi attributi.
+
+SCHEMA STRUTTURA MODELLI
+
+
+
+% --Front-end--
+\section{Front-end}
+\label{sec:front}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  9 OCT 2015 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  9 OCT 2015 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -881,44 +881,45 @@ Package caption Info: End \AtBeginDocument code.
 ABD: EveryShipout initializing macros (./sviluppo.tex
 chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 18.
 [1
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
  [2]
 <images/homepage.jpg, id=17, 1445.4pt x 838.13126pt>
 File: images/homepage.jpg Graphic file (type jpg)
  <use images/homepage.jpg>
-Package pdftex.def Info: images/homepage.jpg used on input line 46.
+Package pdftex.def Info: images/homepage.jpg used on input line 49.
 (pdftex.def)             Requested size: 418.25368pt x 242.5275pt.
 
 <images/homepage-ordini.jpg, id=19, 219.82124pt x 90.3375pt>
 File: images/homepage-ordini.jpg Graphic file (type jpg)
 
 <use images/homepage-ordini.jpg>
-Package pdftex.def Info: images/homepage-ordini.jpg used on input line 54.
+Package pdftex.def Info: images/homepage-ordini.jpg used on input line 57.
 (pdftex.def)             Requested size: 125.47737pt x 51.56595pt.
-) (./biblio.tex [3 <./images/homepage.jpg> <./images/homepage-ordini.jpg>]) [4
+ [3 <./images/homepage.jpg> <./images/homepage-ordini.jpg>] [4]) (./biblio.tex 
+[5]) [6
 
 ] (./dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 15942 strings out of 493054
- 308638 string characters out of 6134760
- 426987 words of memory out of 5000000
- 19162 multiletter control sequences out of 15000+600000
- 8675 words of font info for 31 fonts, out of 8000000 for 9000
+ 15951 strings out of 493054
+ 308734 string characters out of 6134760
+ 427024 words of memory out of 5000000
+ 19170 multiletter control sequences out of 15000+600000
+ 8843 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,7n,66p,799b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/
@@ -928,11 +929,12 @@ onts/cm/cmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmtt12.pfb>
-Output written on dissertation.pdf (4 pages, 1181433 bytes).
+ts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt12.pfb>
+Output written on dissertation.pdf (6 pages, 1199893 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

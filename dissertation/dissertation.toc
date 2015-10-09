@@ -3,6 +3,8 @@
 \contentsline {chapter}{\numberline {1}Introduzione}{3}
 \contentsline {chapter}{\numberline {2}FEM2-Ambiente}{4}
 \contentsline {section}{\numberline {2.1}La storia di FEM2-Ambiente}{4}
-\contentsline {section}{\numberline {2.2}Le richieste}{6}
-\contentsline {chapter}{\numberline {3}Sviluppo}{7}
-\contentsline {chapter}{\numberline {A}Codice Sorgente}{8}
+\contentsline {section}{\numberline {2.2}La richiesta}{5}
+\contentsline {chapter}{\numberline {3}Sviluppo}{6}
+\contentsline {section}{\numberline {3.1}WordPress}{6}
+\contentsline {subsection}{\numberline {3.1.1}Caratteristiche di {WordPress}}{6}
+\contentsline {subsection}{\numberline {3.1.2}{WordPress} per {FEM2-Ambiente}}{7}
