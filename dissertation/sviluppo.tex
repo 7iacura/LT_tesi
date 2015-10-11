@@ -58,13 +58,14 @@ In questo capitolo é descritta la costruzione della piattaforma acquisti associ
 Per lo sviluppo della piattaforma web le tecnologie utilizzate sono state: \emph{Django} come web framework e \emph{MySQL} per il database.
 
 \subsection{Django}
-\label{django}
+\label{subs:django}
 \emph{Django} è un web framework open source per lo sviluppo di applicazioni web, scritto in linguaggio \emph{Python}; il progetto è sviluppato dalla "Django Software Foundation" (DSF), un'organizzazione indipendente senza scopo di lucro \cite{django}. É stato inizialemente concepito per gestire diversi siti di notizie, ed in seguito distributo con una licenza BSD (Berkeley Software Distribution) a luglio 2005.
 
 La scelta di Django é ricaduta grazie alle molte proprietà: dall'astrazione del database relazionale ad oggetti, alla
 possibilità di installare funzionalità attraverso plugin, dalla robusta API per la gestione del database, al sistema di "view generiche" che evitano la stesura di codice ripetitivo per determinati casi comuni e soprattutto il sistema di template  e gestore di URL basate su espressioni regolari. Django offre inoltre un efficace supporto per localizzazione, incluse traduzioni dell'interfaccia amministrativa in molte lingue.
 
 \subsection{Configurazione}
+\label{subs:config}
 Il primo passo é stato l'installazione delle componenti di Django, attraverso la creazione del progetto (nome di esempio \texttt{mysite}), con il comando a terminale:
 \begin{verbatim}
 $ django-admin startproject mysite
@@ -95,6 +96,7 @@ Le \texttt{INSTALLED\_APPS} sono una sorta di librerie usate per l'aggiunta di c
 \end{itemize}
 
 \subsection{Creazione}
+\label{subs:crea}
 Durante tutta la fase di sviluppo é stato necessario avviare il \emph{development server} attraverso il comando da terminale:
 \begin{verbatim}
 $ python manage.py runserver
@@ -289,11 +291,11 @@ Con la creazione del file \texttt{base.html} si sono definiti file statici come 
 
 Dalla figura~\ref{fig:flusso-cliente} del flusso cliente si evince come il primo passo sia stato costruire una sorta di Homepage per introdurre i clienti non registrati al Portale (file chiamato \texttt{home.html}) e da qui, attraverso la barra di navigazione, dare la possibilità di effettuare il login o la registrazione.
 
-\subsection*{registrazione}
-\label{subs:pregistrazione}
+\subsection*{registrazione e pagina personale}
+\label{subs:preg-ppers}
 La pagina di registrazione (\texttt{register.html}) ha richiesto l'utilizzo di codice {\js} principalmente per il controllo dei dati inseriti nei campi del form; in particolare il controllo in browser della compilazione di tutti i campi obbligatori e della loro correttezza sintattica in modo da evitare inutili comunicazione con il server che porterebbero a una, seppur lieve, perdita di tempo.
 
-I controlli sono dei semplici 'validatori' che assegnano \texttt{true} alla variabile \texttt{any\_error} in modo da visualizzare un messaggio di errore al momento dell'invio del form. Per rendere ancora più esplicito il messaggio di errore é stato inserito in un \emph{modale}, strumento introdotto da {\b} che consiste in un {\div} al centro della viewport (ovvero la regione di pagina che viene visualizzata nel monitor) che monopolizza l'attenzione. All'interno di esso viene inserito il testo relativo all'errore. Ad esempio
+I controlli sono dei semplici 'validatori' che assegnano \texttt{true} alla variabile \texttt{any\_error} in modo da visualizzare un messaggio di errore al momento dell'invio del form. Per rendere ancora più esplicito il messaggio di errore é stato inserito in un \emph{modale}, strumento introdotto da {\b} che consiste in un \tag{div} al centro della viewport (ovvero la regione di pagina che viene visualizzata nel monitor) che monopolizza l'attenzione. All'interno di esso viene inserito il testo relativo all'errore. Ad esempio
 \begin{verbatim}
 if(any_error) {
  modal
@@ -301,7 +303,8 @@ if(any_error) {
 }
 \end{verbatim}
 
-Una volta completato il processo di registrazione il cliente visualizza la propria pagina personale (figura~\ref{fig:ppersonale}) in cui può vedere la propria cronologia di ordini, modificare i dati personali, ma soprattutto creare un nuovo ordine.
+Una volta completato il processo di registrazione il cliente visualizza la propria pagina personale (figura~\ref{fig:ppersonale}) in cui può vedere la propria cronologia di ordini, modificare i dati personali, acquistare pacchetti crediti FEM, ma soprattutto creare un nuovo ordine.
+
 \begin{figure}
  \includegraphics[width=1\textwidth]{images/ppersonale} 
  \caption{pagina personale}
@@ -312,8 +315,94 @@ Una volta completato il processo di registrazione il cliente visualizza la propr
 \label{subs:pno}
 La pagina di creazione dell'ordine é divisa in tre blocchi come sono le sue fasi: \emph{carrello}, \emph{riepilogo}, \emph{pagamento}.
 
-La prima schermata del carrello é divisa in due parti, in alto si trova la tabella che funge da carrello vero e proprio raccogliendo tutti i campioni inseriti dal cliente e mostrando i 
+La prima schermata del carrello é divisa in due parti (figura˜\ref{fig:pno-cart}). In alto si trova la tabella che funge da carrello vero e proprio raccogliendo tutti i campioni inseriti dal cliente e mostrando i relativi dati associati come identificativo, specie, analisi richieste, costo, etc. In basso si trova il form per l'inserimento di dei soggetti.
+
+\begin{figure}
+ \includegraphics[width=1\textwidth]{images/pno-cart} 
+ \caption{nuovo ordine - schermata carrello}
+ \label{fig:pno-cart}
+\end{figure}
+
+Come nella pagina di registrazione viene utilizzato del codice {\js} per la validazione dei campi, inoltre il campo \texttt{specie} funge da elenco in cui cercare la specie/sottospecie del soggetto. 
+
+Una volta selezionata la specie, a destra verrà popolato un \tag{div} (identificato dalla classe \texttt{taxonomy})contenente l'immagine e altre informazioni come i nome comuni come descritto nel seguente estratto di codice; se non é stata correttamente selezionata la specie tra quelle esistenti  il \tag{div} \texttt{taxonomy} non deve comparire. Per farlo é stata creata una classe apposta in CSS (\texttt{dno}) che va a impostare \texttt{display:none}, cioè oggetto non visibile. Di seguito se la specie é stata selezionata correttamente si popolano gli appositi \tag{div} innestati (identificati dagli \texttt{id="nome\_specie"} e così via) e l'immagine; quest'ultima potrebbe non essere presente per alcune specie, in questi casi si caricherà un immagine preimpostata per indicarlo.
+
+\begin{footnotesize}
+\begin{verbatim}
+  if($(this).val() == "-1") {
+    $(".taxonomy").addClass("dno");
+  } else {
+    if(data_Specie[$(this).val()].immagine == "") {
+      $(".image-exist").addClass("dno");
+      $(".image-not-exist").removeClass("dno");
+    } else {
+      $(".image-exist").attr
+       ("src" "/media/"+data_Specie[$(this).val()].immagine).removeClass("dno");
+      $(".image-not-exist").addClass("dno");
+    }
+    $("#nome_specie").html(data_Specie[$(this).val()].specie_padre)
+    $("#nome_sottospecie").html(data_Specie[$(this).val()].nome);
+    $("#nome_comune_sottospecie").html(data_Specie[$(this).val()].nome_comune);
+    $(".taxonomy").removeClass("dno");
+  } 
+ 
+\end{verbatim}
+\end{footnotesize}
+
+Una volta completata l'aggiunta di soggetti si passa al \emph{riepilogo}, sezione nella quale viene riproposto l'elenco completo degli esemplari aggiunti da analizzare, e richiesta l'eventuale aggiunta di campioni standard in caso di specie classificate come junior.
+
+Infine si visualizza la schermata per il pagamento nella quale si sceglie attraverso \texttt{checkbox} la modalità preferita e dinamicamente vengono descritte in un \tag{div} le coordinate per i pagamenti e per la spedizione delle piume.
+
+Durante la creazione di un ordine può esserci un passo in più, ovvero nel caso di selezione di una specie non presente nell'elenco fornito da {\fem} l'ordine viene arrestato, in attesa che un addetto dell'azienda classifichi correttamente la 'nuova specie' indicata dal cliente. Questo avviene sia per una questione di ordine e controllo, sia per mantenere la totale correttezza al momento della generazione degli attestati ed evitare di generare documentazione con specie non esistente e scritta in modo scorretto a causa di una svista.
+
+\subsection*{ordine}
+\label{subs:po}
+Completato l'ordine il cliente viene indirizzato al pagina dedicata, in cui vengono riproposte le coordinate di pagamento se non é ancora stato eseguito l'elenco dei soggetti da analizzare, lo stato delle analisi, la possibilità di scaricare gli attestati digitali e una sezione dedicata alla comunicazione diretta con {\fem} (figura~\ref{fig:po}).
+
+\begin{figure}
+ \includegraphics[width=1\textwidth]{images/po} 
+ \caption{pagina ordine}
+ \label{fig:po}
+\end{figure}
 
 \newpage
 \subsection{Vista Admin}
 \label{subs:admin}
+
+\begin{wrapfigure}{l}{0.27\textwidth}
+  \begin{center}
+    \includegraphics[width=0.25\textwidth]{images/suit}
+  \end{center}
+\end{wrapfigure}
+
+Il controllo del flusso ordini e la comunicazione con il cliente sono una facciata importantissima per un e-commerce, e per questo motivo é necessaria una efficace interfaccia utente per l'utilizzo della piattaforma in tutte le sue potenzialità.
+
+Django mette a disposizione un pannello admin autogenerato basato sui modelli definiti (vedi~\ref{subs:crea}), ma per una migliore usabilità abbiamo deciso di installare \emph{Django Suit}, una estensione per un tema alternativo del pannello admin dei sistemi Django \cite{suit}. Django Suit ci ha permesso di personalizzare il lato admin andando incontro alle richieste dei tecnici di {\fem}. A lato si può vedere la barra verticale di navigazione.
+
+Gli utenti lato admin, cioè dipendenti di {\fem}, si possono dividere in due tipologie: gli addetti al controllo e ai rapporti con la clientela, e i tecnici di laboratorio.
+
+I primi controlleranno le utenze, i dati della clientela, i prezzi e la scontistica legata o non legata alle associazioni convenzionate, le statistiche e la messaggistica con il cliente.
+
+I secondi si occuperanno di effettuare le analisi, controllare il corretto flusso degli ordini e la generazione degli attestati.
+
+Il dettaglio delle azioni lato admin sono descritte nell'appendice~\ref{app:admin}.
+
+La configurazione di Django Suit avviene come segue
+\begin{footnotesize}
+\begin{verbatim}
+ SUIT_CONFIG = {
+    'ADMIN_NAME': 'Pannello admin del Portale Avifauna',
+    'MENU': (
+        'sites',
+        {'label': 'Laboratorio', 'icon':'icon-tint', 
+              'models': (
+                   'ordini.analisi', 
+                   'ordini.metodoestrazione', 
+                   'ordini.metodoamplificazione', 
+                   ordini.metodovisualizzazione', 
+                   'ordini.campione')},
+    ),
+ }
+\end{verbatim}
+\end{footnotesize}
+
