@@ -1,0 +1,34 @@
+\chapter{Codice Sorgente}
+
+In questa sezione sono riportate e commentate alcune parti del codice sorgente citate nel corso della discussione.
+
+\section*{Utilizzo dei templates Django}
+\label{app:templates}
+
+Come illustrato nel corso della discussione Django fornisce uno strumento utile per centralizzare e non duplicare codice HTML, i \emph{templates}.
+
+Si é costruito un file \texttt{base.html} (di seguito parte del codice semplificato) per includere in un file unico tutte le informazioni statiche e ripetute in tutti gli altri file HTML del progetto.
+
+\begin{footnotesize}
+\begin{verbatim}
+<html>
+<head>
+  <title>{% block title %}fem2ambiente {% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+</head>
+
+<body>
+   <nav role="navigation">                        
+     {% include "login.html" %}
+   </nav>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+{% block jsexec %}
+  <script src="/static/js/bootstrap.js"></script>
+{% endblock %}
+</body>
+</html>
+\end{verbatim}
+\end{footnotesize}
