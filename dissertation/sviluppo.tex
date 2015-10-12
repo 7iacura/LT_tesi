@@ -139,7 +139,7 @@ Una \texttt{Associazione} é caratterizzata da un nome e da uno schema prezzi as
 L' \texttt{Ordine} é il componente più delicato e complesso del sistema a causa del suo flusso rappresentato in figura~\ref{fig:flusso-ordine}.
 
 \begin{figure}
- \includegraphics[width=1\textwidth]{images/filenotfound} 
+ \includegraphics[width=1\textwidth]{images/flusso-ordine} 
  \caption{flusso ordine}
  \label{fig:flusso-ordine}
 \end{figure}
@@ -259,16 +259,22 @@ Associato a {\b} é stato utilizzato anche \emph{Font Awesome}, un toolkit di fo
 \newpage
 \subsection{Vista Cliente}
 \label{subs:cliente}
-Il cliente finale può compiere poche azioni basilari nella piattaforma sviluppata rappresentate nella figura~\ref{fig:flusso-cliente}. Queste azioni però devono essere supportate da un adeguata interfaccia e per farlo sono stati utilizzato tutti gli strumenti descritti in precedenza.
+Il cliente finale può compiere poche azioni basilari nella piattaforma sviluppata, rappresentate nella figura~\ref{fig:flusso-cliente}.
 
-\begin{figure}
- \includegraphics[width=1\textwidth]{images/filenotfound} 
- \caption{flusso cliente}
- \label{fig:flusso-cliente}
-\end{figure}
+Il cliente può essere già registrato al sistema oppure no. Nel primo caso si può registrare e al termine della procedura accedere alla propria pagina personale.
+
+Nel secondo caso direttamente dopo il login il cliente accede alla propria pagina personale dove può modificare i propri dati personali, acquistare pacchetti di crediti FEM, ma soprattutto monitorare i propri ordini e crearne di nuovi. 
+
+Queste azioni sono descritte meglio nell'appendice~\ref{app:cliente} e devono essere supportate da un adeguata interfaccia; per farlo sono stati utilizzati tutti gli strumenti descritti in precedenza.
 
 Django, essendo un web framework, ha bisogno di una gestione dinamica dei file HTML, e l'approcio più comune é l'utilizzo dei \emph{templates}.
 Un template contiene porzioni statiche del codice HTML desiderato e permette la riproduzione di alcune o intere porzioni di codice in altri file per evitare inutili dupicati.
+
+\begin{figure}
+ \includegraphics[width=1\textwidth]{images/flusso-cliente} 
+ \caption{flusso cliente}
+ \label{fig:flusso-cliente}
+\end{figure}
 
 Sono stati quindi introdotti alcuni comandi:
 \begin{itemize}
