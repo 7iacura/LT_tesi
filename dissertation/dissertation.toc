@@ -22,3 +22,4 @@
 \contentsline {chapter}{\numberline {5}Conclusioni}{26}
 \contentsline {chapter}{\numberline {A}Codice Sorgente}{27}
 \contentsline {chapter}{\numberline {B}Guida Admin}{30}
+\contentsline {chapter}{\numberline {C}Guida Cliente}{34}
