@@ -19,5 +19,6 @@
 \contentsline {subsection}{\numberline {4.2.4}Bootstrap}{18}
 \contentsline {subsection}{\numberline {4.2.5}Vista Cliente}{20}
 \contentsline {subsection}{\numberline {4.2.6}Vista Admin}{25}
-\contentsline {chapter}{\numberline {A}Codice Sorgente}{26}
-\contentsline {chapter}{\numberline {B}Appendice Admin}{29}
+\contentsline {chapter}{\numberline {5}Conclusioni}{26}
+\contentsline {chapter}{\numberline {A}Codice Sorgente}{27}
+\contentsline {chapter}{\numberline {B}Guida Admin}{30}
