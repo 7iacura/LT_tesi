@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  13 OCT 2015 02:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  13 OCT 2015 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -46,6 +46,12 @@ Package scrreprt Info: You've used standard option `12pt'.
 (scrreprt)             If you'd like to set the option with \KOMAoptions,
 (scrreprt)             you'd have to use `fontsize=12pt' there
 (scrreprt)             instead of `12pt', too.
+Class scrreprt Info: You've used standard option `openright'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `open=right'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `open=right' there
+(scrreprt)           instead of `openright', too.
 Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 2248.
 
@@ -78,8 +84,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 2.4185pt
-(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)              \evensidemargin = 27.31467pt
+(typearea)              \oddsidemargin  = -22.47766pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 635.5pt
 (typearea)              \topmargin      = -41.72441pt
@@ -755,27 +761,23 @@ File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
-\CommentStream=\write4
-
-Excluding comment 'comment') (./dissertation.aux)
+)) (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Info: Redefining \it@ocap on input line 6.
-LaTeX Info: Redefining \it@ccap on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Info: Redefining \it@ocap on input line 4.
+LaTeX Info: Redefining \it@ccap on input line 4.
 
 
 File italian.ldf warning: 
@@ -783,7 +785,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 6.
+italian.ldf    on input line 4.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -849,21 +851,21 @@ e
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
 * v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=418.25368pt
 * \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28255pt
 * \topmargin=-10.73834pt
 * \headheight=18.125pt
 * \headsep=21.75pt
 * \topskip=12.0pt
 * \footskip=50.75pt
-* \marginparwidth=49.79233pt
+* \marginparwidth=74.68849pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -871,8 +873,8 @@ e
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -884,7 +886,7 @@ ABD: EveryShipout initializing macros (./title.tex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
@@ -898,7 +900,7 @@ ABD: EveryShipout initializing macros (./title.tex
 * \headsep=21.75pt
 * \topskip=12.0pt
 * \footskip=50.75pt
-* \marginparwidth=49.79233pt
+* \marginparwidth=74.68849pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -906,8 +908,8 @@ ABD: EveryShipout initializing macros (./title.tex
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -930,27 +932,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/logo-bicocca.jpg>]) (./dissertation.toc)
-\tf@toc=\write5
-\openout5 = `dissertation.toc'.
+s/logo-bicocca.jpg>]) [2
 
 
-(./introduzione.tex [2
+
+] (./dissertation.toc)
+\tf@toc=\write4
+\openout4 = `dissertation.toc'.
+
+ (./introduzione.tex [3] [4
 
 
 ]
 chapter 1.
-) (./fem2ambiente.tex [3
-
-]
+) (./fem2ambiente.tex [5] [6]
 chapter 2.
-<images/logo-fem.jpg, id=22, 351.3125pt x 122.4575pt>
+<images/logo-fem.jpg, id=31, 351.3125pt x 122.4575pt>
 File: images/logo-fem.jpg Graphic file (type jpg)
 
 <use images/logo-fem.jpg>
-Package pdftex.def Info: images/logo-fem.jpg used on input line 13.
+Package pdftex.def Info: images/logo-fem.jpg used on input line 12.
 (pdftex.def)             Requested size: 125.47737pt x 43.7371pt.
- [4
+ [7
+
 
  <./images/logo-fem.jpg>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
@@ -960,96 +964,102 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
- [5])
-(./sviluppo.tex [6]
-chapter 3.
-[7
+ [8])
+(./sviluppo.tex [9] [10
 
-] <images/homepage.jpg, id=38, 1445.4pt x 838.13126pt>
+
+]
+chapter 3.
+[11] <images/homepage.jpg, id=51, 1445.4pt x 838.13126pt>
 File: images/homepage.jpg Graphic file (type jpg)
 
 <use images/homepage.jpg>
 Package pdftex.def Info: images/homepage.jpg used on input line 38.
 (pdftex.def)             Requested size: 418.25368pt x 242.5275pt.
 
-<images/homepage-ordini.jpg, id=40, 219.82124pt x 90.3375pt>
+<images/homepage-ordini.jpg, id=53, 219.82124pt x 90.3375pt>
 File: images/homepage-ordini.jpg Graphic file (type jpg)
 
 <use images/homepage-ordini.jpg>
 Package pdftex.def Info: images/homepage-ordini.jpg used on input line 46.
 (pdftex.def)             Requested size: 125.47737pt x 51.56595pt.
- [8] [9 <./images/homepage.jpg> <./images/homepage-ordini.jpg>]
-chapter 4.
-[10
+ [12] [13 <./images/homepage.jpg> <./images/homepage-ordini.jpg>] [14
 
-] <images/modelli.jpg, id=53, 3423.79124pt x 2649.9pt>
+
+]
+chapter 4.
+[15] <images/modelli.jpg, id=69, 3423.79124pt x 2649.9pt>
 File: images/modelli.jpg Graphic file (type jpg)
 
 <use images/modelli.jpg>
 Package pdftex.def Info: images/modelli.jpg used on input line 109.
 (pdftex.def)             Requested size: 418.25368pt x 323.67549pt.
- [11] [12 <./images/modelli.jpg>] [13]
-<images/flusso-ordine.jpg, id=65, 2337.73375pt x 2333.71875pt>
+ [16] [17 <./images/modelli.jpg>] [18]
+<images/flusso-ordine.jpg, id=80, 2337.73375pt x 2333.71875pt>
 File: images/flusso-ordine.jpg Graphic file (type jpg)
 
 <use images/flusso-ordine.jpg>
 Package pdftex.def Info: images/flusso-ordine.jpg used on input line 142.
 (pdftex.def)             Requested size: 418.25368pt x 417.52296pt.
 
-<images/tassonomia.jpg, id=66, 2320.67pt x 225.84375pt>
+<images/tassonomia.jpg, id=81, 2320.67pt x 225.84375pt>
 File: images/tassonomia.jpg Graphic file (type jpg)
 
 <use images/tassonomia.jpg>
 Package pdftex.def Info: images/tassonomia.jpg used on input line 163.
 (pdftex.def)             Requested size: 418.25368pt x 40.7018pt.
- [14] [15 <./images/flusso-ordine.jpg> <./images/tassonomia.jpg>]
+ [19] [20 <./images/flusso-ordine.jpg> <./images/tassonomia.jpg>]
 Overfull \hbox (0.72278pt too wide) in paragraph at lines 174--175
 []\OT1/cmr/m/n/12 Per fa-ci-li-ta-re il la-vo-ro in la-bo-ra-to-rio so-no sta-t
 i crea-ti an-che \OT1/cmtt/m/n/12 metodo[]di[]estrazione\OT1/cmr/m/n/12 ,
  []
 
-[16] [17] [18] [19] [20] [21]
-<images/flusso-cliente.jpg, id=93, 3105.6025pt x 2350.7825pt>
+[21] [22] [23] [24] [25] [26]
+<images/flusso-cliente.jpg, id=109, 3105.6025pt x 2350.7825pt>
 File: images/flusso-cliente.jpg Graphic file (type jpg)
 
 <use images/flusso-cliente.jpg>
 Package pdftex.def Info: images/flusso-cliente.jpg used on input line 274.
 (pdftex.def)             Requested size: 418.25368pt x 316.58867pt.
- [22] [23 <./images/flusso-cliente.jpg>]
-<images/ppersonale.jpg, id=100, 1247.66125pt x 456.70625pt>
+ [27] [28 <./images/flusso-cliente.jpg>]
+<images/ppersonale.jpg, id=116, 1247.66125pt x 456.70625pt>
 File: images/ppersonale.jpg Graphic file (type jpg)
 
 <use images/ppersonale.jpg>
 Package pdftex.def Info: images/ppersonale.jpg used on input line 315.
 (pdftex.def)             Requested size: 418.25368pt x 153.09683pt.
 
-<images/pno-cart.jpg, id=101, 1142.2675pt x 1263.72125pt>
+<images/pno-cart.jpg, id=117, 1142.2675pt x 1263.72125pt>
 File: images/pno-cart.jpg Graphic file (type jpg)
 
 <use images/pno-cart.jpg>
 Package pdftex.def Info: images/pno-cart.jpg used on input line 327.
 (pdftex.def)             Requested size: 418.25368pt x 462.72957pt.
- [24]
+ [29]
 Overfull \hbox (1.74266pt too wide) in paragraph at lines 355--355
 []       \OT1/cmtt/m/n/10 ("src" "/media/"+data_Specie[$(this).val()].immagine)
 .removeClass("dno");[] 
  []
 
-[25 <./images/ppersonale.jpg>] [26 <./images/pno-cart.jpg>]
-<images/po.jpg, id=112, 1051.93pt x 430.60875pt>
+[30 <./images/ppersonale.jpg>] [31 <./images/pno-cart.jpg>]
+<images/po.jpg, id=128, 1051.93pt x 430.60875pt>
 File: images/po.jpg Graphic file (type jpg)
  <use images/po.jpg>
 Package pdftex.def Info: images/po.jpg used on input line 369.
 (pdftex.def)             Requested size: 418.25368pt x 171.21542pt.
- [27 <./images/po.jpg>] <images/suit.jpg, id=116, 215.80624pt x 489.83pt>
+ [32 <./images/po.jpg>] <images/suit.jpg, id=132, 215.80624pt x 489.83pt>
 File: images/suit.jpg Graphic file (type jpg)
 
 <use images/suit.jpg>
 Package pdftex.def Info: images/suit.jpg used on input line 380.
 (pdftex.def)             Requested size: 104.56342pt x 237.33556pt.
-) (./conclusioni.tex [28 <./images/suit.jpg>]
+) (./conclusioni.tex [33 <./images/suit.jpg>] [34
+
+
+]
 chapter 5.
-) (./codice.tex [29
+) (./codice.tex [35] [36
+
 
 ]
 chapter A.
@@ -1061,9 +1071,7 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 38.
 
-[30
-
-]
+[37]
 Overfull \hbox (25.19933pt too wide) in paragraph at lines 65--66
 []\OT1/cmr/m/n/12 in \OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 % block title %\OMS/cmt
 t/m/n/12 g \OT1/cmr/m/n/12 (co-me in \OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 % block
@@ -1071,7 +1079,10 @@ t/m/n/12 g \OT1/cmr/m/n/12 (co-me in \OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 % block
 /cmtt/m/n/12 block.super\OMS/cmtt/m/n/12 gg
  []
 
-[31]) (./app-admin.tex [32]
+[38]) (./app-admin.tex [39] [40
+
+
+]
 chapter B.
 File: images/suit.jpg Graphic file (type jpg)
 <use images/suit.jpg>
@@ -1083,19 +1094,23 @@ Underfull \hbox (badness 2809) in paragraph at lines 17--18
 -rat-te-riz-za-te da un no-me
  []
 
-[33
-
-] [34] [35]) (./app-cliente.tex [36]
+[41] [42] [43]) (./app-cliente.tex [44]
 chapter C.
-[37
+[45
 
-] [38] [39]) (./biblio.tex [40]
+
+] [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47])
+(./biblio.tex [48]
 Underfull \hbox (badness 10000) in paragraph at lines 53--55
 \OT1/cmtt/m/n/12 http : / / www . foi . it / la-[]federazione-[]ornicoltori-[]i
 taliani-[]onlus .
  []
 
-[41
+[49
+
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
@@ -1106,19 +1121,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 tandards /
  []
 
-) [42] (./dissertation.aux)
+) [50] (./dissertation.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16131 strings out of 493054
- 311837 string characters out of 6134760
- 428505 words of memory out of 5000000
- 19312 multiletter control sequences out of 15000+600000
+ 16097 strings out of 493054
+ 311200 string characters out of 6134760
+ 427664 words of memory out of 5000000
+ 19280 multiletter control sequences out of 15000+600000
  11135 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,8n,66p,947b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,8n,66p,947b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1131,10 +1146,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.pdf (42 pages, 3423128 bytes).
+Output written on dissertation.pdf (50 pages, 3423915 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

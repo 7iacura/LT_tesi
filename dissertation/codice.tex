@@ -8,7 +8,7 @@ In questa sezione sono riportate e commentate alcune parti del codice sorgente c
 
 Come illustrato nel corso della discussione Django fornisce uno strumento utile per centralizzare e non duplicare codice HTML, i \emph{templates}.
 
-Si é costruito un file \texttt{base.html} (di seguito parte del codice semplificato) per includere in un file unico tutte le informazioni statiche e ripetute in tutti gli altri file HTML del progetto.
+Si è costruito un file \texttt{base.html} (di seguito parte del codice semplificato) per includere in un file unico tutte le informazioni statiche e ripetute in tutti gli altri file HTML del progetto.
 
 \begin{footnotesize}
 \begin{verbatim}
@@ -36,7 +36,7 @@ Si é costruito un file \texttt{base.html} (di seguito parte del codice semplifi
 Si può notare:
 \begin{itemize}
  \item nell'\tag{head} il blocco \tag{title} contiene \dja{block title}, in modo da poter includere nel blocco un titolo diverso per ogni file HTML che viene esteso
- \item \dja{include "login.html"} é la chiamata per includere in quella sezione della barra di navigazione il file dedicato al login, nel quale in base allo stato del cliente (loggato o no) mostrerà il form di login oppure i dati personali
+ \item \dja{include "login.html"} è la chiamata per includere in quella sezione della barra di navigazione il file dedicato al login, nel quale in base allo stato del cliente (loggato o no) mostrerà il form di login oppure i dati personali
  \item \dja{block content} indica dove andrà inserito il codice HTML del file che estende
  \item \dja{block jsexec} indica la sezione dedicata all'inserimento degli script {\js}
 \end{itemize}
@@ -68,7 +68,7 @@ Si può notare:
 
 \section*{Traduzione}
 \label{app:traduzione}
-Django mette a disposizione un sistema per la gestione multilingua della piattaforma, per farlo é necessario inserire piccole parti di codice in tutti i punti che dovranno essere tradotti, sono dette '\emph{translation strings}. Django poi provvederà automaticamente ad incapsulare le stringhe da tradurre e trasferirle in file apposta dove andrà inserita la traduzione; una volta fatto ciò il sistema sarà pronto per supportare il multilingua.
+Django mette a disposizione un sistema per la gestione multilingua della piattaforma, per farlo è necessario inserire piccole parti di codice in tutti i punti che dovranno essere tradotti, sono dette '\emph{translation strings}. Django poi provvederà automaticamente ad incapsulare le stringhe da tradurre e trasferirle in file apposta dove andrà inserita la traduzione; una volta fatto ciò il sistema sarà pronto per supportare il multilingua.
 
 Nel file \texttt{settings.py}:
 \begin{footnotesize}
@@ -83,15 +83,15 @@ Nel file \texttt{settings.py}:
 \end{verbatim}
 \end{footnotesize}
 
-In ogni template HTML é necessario inserire la riga di codice \dja{load i18n} per permettere a Django di individuare le stringe da tradurre, inoltre esse dovranno essere più precisamente indicate. 
+In ogni template HTML è necessario inserire la riga di codice \dja{load i18n} per permettere a Django di individuare le stringe da tradurre, inoltre esse dovranno essere più precisamente indicate. 
 
-Una soluzione é il tag \texttt{trans} utilizzato ad esempio
+Una soluzione è il tag \texttt{trans} utilizzato ad esempio
 \begin{footnotesize}
 \begin{verbatim}
  {% trans "stringa da tradurre" %}
 \end{verbatim}
 \end{footnotesize}
-oppure (se la stringa da tradurre é utilizzata più volte
+oppure (se la stringa da tradurre è utilizzata più volte
 \begin{footnotesize}
 \begin{verbatim}
  {% trans "stringa da tradurre" as esempio_variabile %}
@@ -99,7 +99,7 @@ oppure (se la stringa da tradurre é utilizzata più volte
 \end{footnotesize}
 e all'interno del testo si andrà ad inserire la variabile collegata.
 
-Un altra soluzione é l'utilizzo del tag \dja{blocktrans}, di seguito un esempio di utilizzo
+Un altra soluzione è l'utilizzo del tag \dja{blocktrans}, di seguito un esempio di utilizzo
 \begin{footnotesize}
 \begin{verbatim}
  {% blocktrans %} 
