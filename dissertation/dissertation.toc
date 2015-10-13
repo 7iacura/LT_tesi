@@ -12,14 +12,14 @@
 \contentsline {subsection}{\numberline {4.1.1}Django}{10}
 \contentsline {subsection}{\numberline {4.1.2}Configurazione}{11}
 \contentsline {subsection}{\numberline {4.1.3}Creazione}{11}
-\contentsline {section}{\numberline {4.2}Lato Client}{18}
-\contentsline {subsection}{\numberline {4.2.1}HTML}{18}
-\contentsline {subsection}{\numberline {4.2.2}CSS}{19}
-\contentsline {subsection}{\numberline {4.2.3}JavaScript}{19}
-\contentsline {subsection}{\numberline {4.2.4}Bootstrap}{19}
-\contentsline {subsection}{\numberline {4.2.5}Vista Cliente}{21}
-\contentsline {subsection}{\numberline {4.2.6}Vista Admin}{27}
-\contentsline {chapter}{\numberline {5}Conclusioni}{28}
-\contentsline {chapter}{\numberline {A}Codice Sorgente}{29}
-\contentsline {chapter}{\numberline {B}Guida Admin}{32}
-\contentsline {chapter}{\numberline {C}Guida Cliente}{36}
+\contentsline {section}{\numberline {4.2}Lato Client}{19}
+\contentsline {subsection}{\numberline {4.2.1}HTML}{19}
+\contentsline {subsection}{\numberline {4.2.2}CSS}{20}
+\contentsline {subsection}{\numberline {4.2.3}JavaScript}{20}
+\contentsline {subsection}{\numberline {4.2.4}Bootstrap}{20}
+\contentsline {subsection}{\numberline {4.2.5}Vista Cliente}{22}
+\contentsline {subsection}{\numberline {4.2.6}Vista Admin}{28}
+\contentsline {chapter}{\numberline {5}Conclusioni}{29}
+\contentsline {chapter}{\numberline {A}Codice Sorgente}{30}
+\contentsline {chapter}{\numberline {B}Guida Admin}{33}
+\contentsline {chapter}{\numberline {C}Guida Cliente}{37}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  12 OCT 2015 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  13 OCT 2015 02:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,74 +982,74 @@ Package pdftex.def Info: images/homepage-ordini.jpg used on input line 46.
 chapter 4.
 [10
 
-] <images/filenotfound.jpg, id=53, 1146.2825pt x 163.61125pt>
-File: images/filenotfound.jpg Graphic file (type jpg)
+] <images/modelli.jpg, id=53, 3423.79124pt x 2649.9pt>
+File: images/modelli.jpg Graphic file (type jpg)
 
-<use images/filenotfound.jpg>
-Package pdftex.def Info: images/filenotfound.jpg used on input line 109.
-(pdftex.def)             Requested size: 418.25368pt x 59.69888pt.
- [11] [12 <./images/filenotfound.jpg>]
-<images/flusso-ordine.jpg, id=61, 2337.73375pt x 2333.71875pt>
+<use images/modelli.jpg>
+Package pdftex.def Info: images/modelli.jpg used on input line 109.
+(pdftex.def)             Requested size: 418.25368pt x 323.67549pt.
+ [11] [12 <./images/modelli.jpg>] [13]
+<images/flusso-ordine.jpg, id=65, 2337.73375pt x 2333.71875pt>
 File: images/flusso-ordine.jpg Graphic file (type jpg)
 
 <use images/flusso-ordine.jpg>
 Package pdftex.def Info: images/flusso-ordine.jpg used on input line 142.
 (pdftex.def)             Requested size: 418.25368pt x 417.52296pt.
- [13] [14 <./images/flusso-ordine.jpg>]
-<images/tassonomia.jpg, id=69, 2320.67pt x 225.84375pt>
+
+<images/tassonomia.jpg, id=66, 2320.67pt x 225.84375pt>
 File: images/tassonomia.jpg Graphic file (type jpg)
 
 <use images/tassonomia.jpg>
 Package pdftex.def Info: images/tassonomia.jpg used on input line 163.
 (pdftex.def)             Requested size: 418.25368pt x 40.7018pt.
-
+ [14] [15 <./images/flusso-ordine.jpg> <./images/tassonomia.jpg>]
 Overfull \hbox (0.72278pt too wide) in paragraph at lines 174--175
 []\OT1/cmr/m/n/12 Per fa-ci-li-ta-re il la-vo-ro in la-bo-ra-to-rio so-no sta-t
 i crea-ti an-che \OT1/cmtt/m/n/12 metodo[]di[]estrazione\OT1/cmr/m/n/12 ,
  []
 
-[15 <./images/tassonomia.jpg>] [16] [17] [18] [19] [20]
-<images/flusso-cliente.jpg, id=90, 3105.6025pt x 2350.7825pt>
+[16] [17] [18] [19] [20] [21]
+<images/flusso-cliente.jpg, id=93, 3105.6025pt x 2350.7825pt>
 File: images/flusso-cliente.jpg Graphic file (type jpg)
 
 <use images/flusso-cliente.jpg>
 Package pdftex.def Info: images/flusso-cliente.jpg used on input line 274.
 (pdftex.def)             Requested size: 418.25368pt x 316.58867pt.
- [21] [22 <./images/flusso-cliente.jpg>]
-<images/ppersonale.jpg, id=97, 1247.66125pt x 456.70625pt>
+ [22] [23 <./images/flusso-cliente.jpg>]
+<images/ppersonale.jpg, id=100, 1247.66125pt x 456.70625pt>
 File: images/ppersonale.jpg Graphic file (type jpg)
 
 <use images/ppersonale.jpg>
 Package pdftex.def Info: images/ppersonale.jpg used on input line 315.
 (pdftex.def)             Requested size: 418.25368pt x 153.09683pt.
 
-<images/pno-cart.jpg, id=98, 1142.2675pt x 1263.72125pt>
+<images/pno-cart.jpg, id=101, 1142.2675pt x 1263.72125pt>
 File: images/pno-cart.jpg Graphic file (type jpg)
 
 <use images/pno-cart.jpg>
 Package pdftex.def Info: images/pno-cart.jpg used on input line 327.
 (pdftex.def)             Requested size: 418.25368pt x 462.72957pt.
- [23]
+ [24]
 Overfull \hbox (1.74266pt too wide) in paragraph at lines 355--355
 []       \OT1/cmtt/m/n/10 ("src" "/media/"+data_Specie[$(this).val()].immagine)
 .removeClass("dno");[] 
  []
 
-[24 <./images/ppersonale.jpg>] [25 <./images/pno-cart.jpg>]
-<images/po.jpg, id=109, 1051.93pt x 430.60875pt>
+[25 <./images/ppersonale.jpg>] [26 <./images/pno-cart.jpg>]
+<images/po.jpg, id=112, 1051.93pt x 430.60875pt>
 File: images/po.jpg Graphic file (type jpg)
  <use images/po.jpg>
 Package pdftex.def Info: images/po.jpg used on input line 369.
 (pdftex.def)             Requested size: 418.25368pt x 171.21542pt.
- [26 <./images/po.jpg>] <images/suit.jpg, id=113, 215.80624pt x 489.83pt>
+ [27 <./images/po.jpg>] <images/suit.jpg, id=116, 215.80624pt x 489.83pt>
 File: images/suit.jpg Graphic file (type jpg)
 
 <use images/suit.jpg>
 Package pdftex.def Info: images/suit.jpg used on input line 380.
 (pdftex.def)             Requested size: 104.56342pt x 237.33556pt.
-) (./conclusioni.tex [27 <./images/suit.jpg>]
+) (./conclusioni.tex [28 <./images/suit.jpg>]
 chapter 5.
-) (./codice.tex [28
+) (./codice.tex [29
 
 ]
 chapter A.
@@ -1061,7 +1061,7 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 38.
 
-[29
+[30
 
 ]
 Overfull \hbox (25.19933pt too wide) in paragraph at lines 65--66
@@ -1071,7 +1071,7 @@ t/m/n/12 g \OT1/cmr/m/n/12 (co-me in \OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 % block
 /cmtt/m/n/12 block.super\OMS/cmtt/m/n/12 gg
  []
 
-[30]) (./app-admin.tex [31]
+[31]) (./app-admin.tex [32]
 chapter B.
 File: images/suit.jpg Graphic file (type jpg)
 <use images/suit.jpg>
@@ -1083,19 +1083,19 @@ Underfull \hbox (badness 2809) in paragraph at lines 17--18
 -rat-te-riz-za-te da un no-me
  []
 
-[32
+[33
 
-] [33] [34]) (./app-cliente.tex [35]
+] [34] [35]) (./app-cliente.tex [36]
 chapter C.
-[36
+[37
 
-] [37] [38]) (./biblio.tex [39]
+] [38] [39]) (./biblio.tex [40]
 Underfull \hbox (badness 10000) in paragraph at lines 53--55
 \OT1/cmtt/m/n/12 http : / / www . foi . it / la-[]federazione-[]ornicoltori-[]i
 taliani-[]onlus .
  []
 
-[40
+[41
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
@@ -1106,15 +1106,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 tandards /
  []
 
-) [41] (./dissertation.aux)
+) [42] (./dissertation.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
  16131 strings out of 493054
- 311862 string characters out of 6134760
- 428506 words of memory out of 5000000
+ 311837 string characters out of 6134760
+ 428505 words of memory out of 5000000
  19312 multiletter control sequences out of 15000+600000
  11135 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1131,10 +1131,10 @@ al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.pdf (41 pages, 2614857 bytes).
+Output written on dissertation.pdf (42 pages, 3423128 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
+ 207 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
