@@ -10,9 +10,10 @@
 % --extra package--
 \usepackage{parskip}
 \usepackage{url}
-\usepackage{wrapfig}
+\usepackage{graphicx}
 \usepackage{caption}
-\captionsetup{font=small}
+\usepackage{subcaption}
+%\usepackage{wrapfig}
 %\usepackage{enumitem}
 %\usepackage[inline]{enumitem}
 
@@ -31,5 +32,6 @@
 \def \wp {WordPress}
 \def \js {JavaScript}
 \def \b {Bootstrap}
-\newcommand{\tag}[1] {\texttt{$<$#1$>$}}
-\newcommand{\dja}[1] {\texttt{\{\% #1 \%\}}}
+\newcommand{\tag}[1] {\small{\texttt{$<$#1$>$}}}
+\newcommand{\dja}[1] {\small{\{\% \texttt{#1} \%\}}}
+\newcommand{\burl}[1] {\footnotesize{\url{#1}}}
