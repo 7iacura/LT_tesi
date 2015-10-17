@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.8)  13 OCT 2015 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.15)  16 OCT 2015 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,7 +8,7 @@ LaTeX2e <2015/10/01> patch level 1
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            {Introduzione}
+            *{Introduzione}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -22,11 +22,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \chapter{I
-              ntroduzione}
+l.1 \chapter*
+             {Introduzione}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no * in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -40,8 +41,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
-[] 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[]
  []
 
 
@@ -51,7 +52,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \textbf{\femsrl}
+l.4 \textbf{\femsrl}
                      √® uno spin-off del Dipartimento di Biotecnologie e Bio...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -60,7 +61,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <recently read> \femsrl 
                         
-l.3 \textbf{\femsrl}
+l.4 \textbf{\femsrl}
                      √® uno spin-off del Dipartimento di Biotecnologie e Bio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -128,7 +129,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no ' in font nullfont!
 ! Undefined control sequence.
-l.3 ...di Biotecnologie e Bioscienze dell'{\unimib
+l.4 ...di Biotecnologie e Bioscienze dell'{\unimib
                                                   } costituito nel 2010 con ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -293,13 +294,13 @@ Missing character: There is no √ in font nullfont!
 Missing character: There is no † in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
 []
  []
 
 ! Undefined control sequence.
-l.5 {\fem
-         } dispone ha sede negli edifici universitari, un ambiente di lavoro...
+l.6 {\fem
+         } ha sede negli edifici universitari, un ambiente di lavoro ideale ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -313,19 +314,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 {\fem} d
-            ispone ha sede negli edifici universitari, un ambiente di lavoro...
+l.6 {\fem} h
+            a sede negli edifici universitari, un ambiente di lavoro ideale ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -503,8 +497,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no L in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -666,115 +660,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-! Undefined control sequence.
-l.5 ...ati all'avifauna. In un primo momento {\fem
-                                                  } ha cominciato ad offrire...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no z in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no L in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no q in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -787,6 +673,38 @@ Missing character: There is no √ in font nullfont!
 Missing character: There is no † in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ® in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -852,84 +770,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 i
-     l numero di analisi possibili √© aumentato ed √© ancora in crescita. √â...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no √ in font nullfont!
-Missing character: There is no © in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no √ in font nullfont!
-Missing character: There is no © in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no √ in font nullfont!
-Missing character: There is no â in font nullfont!
+Missing character: There is no à in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -958,17 +800,20 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -980,6 +825,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -1003,14 +850,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no E in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1050,8 +900,23 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1059,25 +924,9 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--7
 []
  []
 
@@ -1088,8 +937,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 Q
-      uesto sviluppo √© l'argomento dela seguente relazione ed √® stato l'am...
+l.8 Q
+     uesto sviluppo √® l'argomento della relazione ed √® stato l'ambito del ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1109,7 +958,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no √ in font nullfont!
-Missing character: There is no © in font nullfont!
+Missing character: There is no ® in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no ' in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1124,15 +973,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -1177,7 +1019,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
 []
  []
 
@@ -1188,14 +1030,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 √
-      ® stato necessario l'utilizzo di diverse tecnologie in base alle richi...
+l.10 √
+      à stato necessario l'utilizzo di diverse tecnologie in funzione delle ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no √ in font nullfont!
-Missing character: There is no ® in font nullfont!
+Missing character: There is no à in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1242,11 +1084,16 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1285,19 +1132,19 @@ Missing character: There is no e in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.12 ...: dalla scelta di un CMS come \emph{{\wp}}
+l.10 ...: dalla scelta di un CMS come \emph{{\wp}}
                                                    per la parte del sito pi√...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 12.
+(Font)              <7> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 12.
+(Font)              <5> on input line 10.
 ! Extra }, or forgotten $.
 <argument> {\wp }
                  
-l.12 ...: dalla scelta di un CMS come \emph{{\wp}}
+l.10 ...: dalla scelta di un CMS come \emph{{\wp}}
                                                    per la parte del sito pi√...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1308,7 +1155,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.12 ...: dalla scelta di un CMS come \emph{{\wp}}
+l.10 ...: dalla scelta di un CMS come \emph{{\wp}}
                                                    per la parte del sito pi√...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1319,7 +1166,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 
+l.11 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1327,17 +1174,175 @@ you left one out. Proceed, with fingers crossed.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no π in font cmr10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 12--13
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
 []
  []
 
 
-Overfull \hbox (1437.78871pt too wide) in paragraph at lines 12--13
-\OML/cmm/m/it/10 }perlapartedelsitopiinformativaedespositiva; ingradodiesserefa
-cilmenteusabileadaggiornabiledapersonenontecnichedelsettoreinformatico; allasce
-ltadiframeworkperunapiattaformaautonomamaconnessaalsitoprincipalechepermettesse
-rolagestionecompletadiunflussoordinipersonalizzatocomequellodelPortaleAvifauna:
-$ 
+Overfull \hbox (1394.99055pt too wide) in paragraph at lines 10--11
+\OML/cmm/m/it/10 }perlapartedelsitopiinformativaedespositiva\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 ingradodiesserefacilmenteusabileadaggiornabiledapersonenontecnic
+hedelsettoreinformatico\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; allasceltadiunframew
+orkwebperlacreazionediunapiattaformaautonomachepermettesselagestionecompletadiu
+nflussoordinipersonalizzatocomequellodelPortaleAvifauna:$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 N
+      el capitolo~\ref{chp:fem} √® descritta la storia ed evoluzione dell'az...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<write> ...: Reference `chp:fem' on page \thepage 
+                                                  \space undefined\on@line .
+l.12 Nel capitolo~\ref{chp:fem}
+                                √® descritta la storia ed evoluzione dell'az...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `chp:fem' on page  undefined on input line 12.
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ® in font cmti10!
+! Undefined control sequence.
+l.12 ...storia ed evoluzione dell'azienda {\femsrl
+                                                  } fino ad arrivare alla ri...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (34.58879pt too wide) in paragraph at lines 12--13
+[]\OT1/cmr/m/it/10 Nel
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 capi-
+ []
+
+
+Overfull \hbox (29.5165pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 tolo []
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 de-
+ []
+
+
+Overfull \hbox (27.72757pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 scritta
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (16.09988pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 sto-
+ []
+
+
+Overfull \hbox (12.39436pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 ria
+ []
+
+
+Overfull \hbox (9.19992pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 ed
+ []
+
+
+Overfull \hbox (44.72194pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 evoluzione
+ []
+
+
+Overfull \hbox (51.11081pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 dell'azienda
+ []
+
+
+Overfull \hbox (16.35547pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 fino
+ []
+
+
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 ad
+ []
+
+
+Overfull \hbox (12.90546pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 ar-
+ []
+
+
+Overfull \hbox (25.29979pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 rivare
+ []
+
+
+Overfull \hbox (15.84436pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 alla
+ []
+
+
+Overfull \hbox (23.63872pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 richi-
+ []
+
+
+Overfull \hbox (17.1221pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 esta
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 di
+ []
+
+
+Overfull \hbox (34.49979pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 sviluppo
+ []
+
+
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 della
+ []
+
+
+Overfull \hbox (11.75548pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 pi-
+ []
+
+
+Overfull \hbox (42.54973pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 attaforma
+ []
+
+
+Overfull \hbox (18.91098pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/it/10 web. 
  []
 
 
@@ -1348,41 +1353,16 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.14 N
-      el capitolo~\ref{chp:fem} sar√† descritta meglio l'azienda {\femsrl} e...
+      el capitolo~\ref{chp:wp} √® descritta la scelta e l'installazione di {...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-<write> ...: Reference `chp:fem' on page \thepage 
-                                                  \space undefined\on@line .
-l.14 Nel capitolo~\ref{chp:fem}
-                                sar√† descritta meglio l'azienda {\femsrl} e...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `chp:fem' on page  undefined on input line 14.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
-! Undefined control sequence.
-l.14 ... sar√† descritta meglio l'azienda {\femsrl
-                                                  } e la sua storia, fino ad...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
 <write> ...g: Reference `chp:wp' on page \thepage 
                                                   \space undefined\on@line .
-l.14 ...piattaforma web, nel capitolo~\ref{chp:wp}
-                                                   verr√† descritta la scelt...
+l.14 Nel capitolo~\ref{chp:wp}
+                               √® descritta la scelta e l'installazione di {...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1393,18 +1373,18 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Reference `chp:wp' on page  undefined on input line 14.
 
 Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
+Missing character: There is no ® in font cmti10!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.14 ...p} verr√† descritta la scelta del CMS {\wp
-                                                  } e la sua installazione, ...
+l.14 ...critta la scelta e l'installazione di {\wp
+                                                  } come Content Management ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.14 ...} verr√† descritta la scelta del CMS {\wp}
-                                                   e la sua installazione, m...
+l.14 ...ritta la scelta e l'installazione di {\wp}
+                                                   come Content Management S...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1414,7 +1394,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <write> ...erence `chp:sviluppo' on page \thepage 
                                                   \space undefined\on@line .
-l.14 ...one, mentre il capitolo~\ref{chp:sviluppo}
+l.14 ...tem, mentre il capitolo~\ref{chp:sviluppo}
                                                    √® dedicato al vero e pro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1451,141 +1431,6 @@ Overfull \hbox (29.5165pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (13.41658pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 sar
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 de-
- []
-
-
-Overfull \hbox (27.72757pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 scritta
- []
-
-
-Overfull \hbox (27.59981pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 meglio
- []
-
-
-Overfull \hbox (38.33311pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 l'azienda
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 la
- []
-
-
-Overfull \hbox (14.56659pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 sua
- []
-
-
-Overfull \hbox (16.09988pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 sto-
- []
-
-
-Overfull \hbox (15.46101pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 ria,
- []
-
-
-Overfull \hbox (16.35547pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 fino
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 ad
- []
-
-
-Overfull \hbox (12.90546pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 ar-
- []
-
-
-Overfull \hbox (25.29979pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 rivare
- []
-
-
-Overfull \hbox (15.84436pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 alla
- []
-
-
-Overfull \hbox (23.63872pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 richi-
- []
-
-
-Overfull \hbox (17.1221pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 esta
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 dello
- []
-
-
-Overfull \hbox (34.49979pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 sviluppo
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 della
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 pi-
- []
-
-
-Overfull \hbox (42.54973pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 attaforma
- []
-
-
-Overfull \hbox (18.91098pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 web,
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 nel
- []
-
-
-Overfull \hbox (20.9554pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 capi-
- []
-
-
-Overfull \hbox (29.5165pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 tolo []
- []
-
-
-Overfull \hbox (17.63318pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 verr
- []
-
-
 Overfull \hbox (13.28879pt too wide) in paragraph at lines 14--15
 \OT1/cmr/m/it/10 de-
  []
@@ -1606,20 +1451,25 @@ Overfull \hbox (23.76648pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 del
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/it/10 e
  []
 
 
-Overfull \hbox (21.74431pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/it/10 CMS
+Overfull \hbox (60.0552pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/it/10 l'installazione
  []
 
 
-Overfull \hbox (628.2292pt too wide) in paragraph at lines 14--15
-\OML/cmm/m/it/10 }elasuainstallazione; mentreilcapitolo [][]dedicatoalveroeprop
-riosviluppodelPortaleattraversoladescrizionedituttiitooleframeworkutilizzati:$ 
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/it/10 di
+ []
 
+
+Overfull \hbox (693.79762pt too wide) in paragraph at lines 14--15
+\OML/cmm/m/it/10 }comeContentManagementSystem; mentreilcapitolo [][]dedicatoalv
+eroepropriosviluppodelPortaleattraversoladescrizionedituttiitooleframeworkutili
+zzati:$ 
  []
 
 
@@ -1630,7 +1480,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.16 P
-      er approfondire alcune porzioni di codice significative √® stata scrit...
+      er approfondire alcune porzioni di codice significative √® possibile l...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1640,8 +1490,8 @@ Missing character: There is no ® in font cmti10!
 ! Undefined control sequence.
 <write> ...eference `app:codice' on page \thepage 
                                                   \space undefined\on@line .
-l.16 ...stata scritta l'Appendice~\ref{app:codice}
-                                                   con attenzione ad alcuni ...
+l.16 ...ibile leggere l'Appendice~\ref{app:codice}
+                                                   che pone l'attenzione su ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1717,13 +1567,28 @@ Overfull \hbox (15.58876pt too wide) in paragraph at lines 16--17
  []
 
 
-Overfull \hbox (20.95541pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/10 stata
+Overfull \hbox (17.37766pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 pos-
  []
 
 
-Overfull \hbox (27.72757pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/10 scritta
+Overfull \hbox (10.73326pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 si-
+ []
+
+
+Overfull \hbox (14.82211pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 bile
+ []
+
+
+Overfull \hbox (14.82208pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 leg-
+ []
+
+
+Overfull \hbox (17.50539pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 gere
  []
 
 
@@ -1732,28 +1597,23 @@ Overfull \hbox (63.2718pt too wide) in paragraph at lines 16--17
  []
 
 
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/10 con
+Overfull \hbox (14.311pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 che
  []
 
 
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/10 at-
+Overfull \hbox (19.9332pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 pone
  []
 
 
-Overfull \hbox (17.12209pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/10 ten-
+Overfull \hbox (50.08856pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 l'attenzione
  []
 
 
-Overfull \hbox (22.48875pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/10 zione
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/10 ad
+Overfull \hbox (9.4555pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/it/10 su
  []
 
 
@@ -1833,8 +1693,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 I
-      nvece per descrivere meglio i compiti lato admin e il flusso cliente s...
+l.18 P
+      er descrivere al meglio le azioni possibili e fornire una guida per il...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1867,4521 +1727,6 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: Reference `app:cliente' on page  undefined on input line 18.
 
-
-Overfull \hbox (46.85532pt too wide) in paragraph at lines 18--19
-[]\OT1/cmr/m/it/10 Invece
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 per
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 de-
- []
-
-
-Overfull \hbox (19.54985pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 scri-
- []
-
-
-Overfull \hbox (17.50539pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 vere
- []
-
-
-Overfull \hbox (27.59981pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 meglio
- []
-
-
-Overfull \hbox (3.06665pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 i
- []
-
-
-Overfull \hbox (20.9554pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 com-
- []
-
-
-Overfull \hbox (14.56657pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 piti
- []
-
-
-Overfull \hbox (16.0999pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 lato
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 ad-
- []
-
-
-Overfull \hbox (16.86658pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 min
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (5.6222pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 il
- []
-
-
-Overfull \hbox (24.53319pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 flusso
- []
-
-
-Overfull \hbox (28.36646pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 cliente
- []
-
-
-Overfull \hbox (19.93323pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 sono
- []
-
-
-Overfull \hbox (20.44429pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 state
- []
-
-
-Overfull \hbox (27.21645pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 scritte
- []
-
-
-Overfull \hbox (27.472pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 rispet-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 va-
- []
-
-
-Overfull \hbox (26.32204pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 mente
- []
-
-
-Overfull \hbox (7.1555pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 le
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 ap-
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 pen-
- []
-
-
-Overfull \hbox (29.26094pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 dici []
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (13.9277pt too wide) in paragraph at lines 18--19
-[]\OT1/cmr/m/it/10 . 
- []
-
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 -
-      -------
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (30.22217pt too wide) in paragraph at lines 20--21
-[]\OT1/cmr/m/it/10 ---
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/it/10 ---
- []
-
-
-Overfull \hbox (5.11108pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/it/10 --
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 L
-      a solida base scientifica del Dipartimento di Biotecnologie e Bioscien...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no π in font cmti10!
-
-Overfull \hbox (30.87213pt too wide) in paragraph at lines 23--24
-[]\OT1/cmr/m/it/10 La
- []
-
-
-Overfull \hbox (15.33324pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 sol-
- []
-
-
-Overfull \hbox (13.28882pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ida
- []
-
-
-Overfull \hbox (17.88875pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 base
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 sci-
- []
-
-
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 en-
- []
-
-
-Overfull \hbox (21.21095pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 tifica
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 del
- []
-
-
-Overfull \hbox (14.19434pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 Di-
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 par-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (26.83316pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 mento
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (30.80531pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 Biotec-
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 nolo-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 gie
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (18.79433pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 Bio-
- []
-
-
-Overfull \hbox (30.66646pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 scienze
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (55.96631pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 l'incubazione
- []
-
-
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 for-
- []
-
-
-Overfull \hbox (17.12212pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 nita
- []
-
-
-Overfull \hbox (20.95544pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 dallo
- []
-
-
-Overfull \hbox (19.42207pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 Zoo-
- []
-
-
-Overfull \hbox (26.97205pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 Plant-
- []
-
-
-Overfull \hbox (15.47209pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 Lab
- []
-
-
-Overfull \hbox (176.33224pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 (http://www.zooplantlab.btbs.unimib.it/)
- []
-
-
-Overfull \hbox (27.72757pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 garan-
- []
-
-
-Overfull \hbox (14.05545pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 tis-
- []
-
-
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 cono
- []
-
-
-Overfull \hbox (5.11108pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 a
- []
-
-
-Overfull \hbox (27.38872pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 FEM2
- []
-
-
-Overfull \hbox (3.57774pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 -
- []
-
-
-Overfull \hbox (18.9332pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 Am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (18.1443pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ente
- []
-
-
-Overfull \hbox (10.98883pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 un
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ide-
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ale
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (18.1443pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ente
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 la-
- []
-
-
-Overfull \hbox (18.52763pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 voro
- []
-
-
-Overfull \hbox (19.42209pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 dove
- []
-
-
-Overfull \hbox (17.37766pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 pos-
- []
-
-
-Overfull \hbox (10.73326pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 si-
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 bile
- []
-
-
-Overfull \hbox (35.1386pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 tradurre
- []
-
-
-Overfull \hbox (8.68884pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 in
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ap-
- []
-
-
-Overfull \hbox (14.31102pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 pli-
- []
-
-
-Overfull \hbox (30.15536pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 cazioni
- []
-
-
-Overfull \hbox (34.62752pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 pratiche
- []
-
-
-Overfull \hbox (47.02188pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 conoscenze
- []
-
-
-Overfull \hbox (14.311pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 che
- []
-
-
-Overfull \hbox (26.06651pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 vanno
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 dalle
- []
-
-
-Overfull \hbox (28.36642pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 biotec-
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 nolo-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 gie
- []
-
-
-Overfull \hbox (14.31102pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 an-
- []
-
-
-Overfull \hbox (6.6444pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 i-
- []
-
-
-Overfull \hbox (18.91101pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 mali
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (16.8665pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 veg-
- []
-
-
-Overfull \hbox (8.1777pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 e-
- []
-
-
-Overfull \hbox (14.05547pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 tali
- []
-
-
-Overfull \hbox (17.8888pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 sino
- []
-
-
-Overfull \hbox (15.33324pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 alle
- []
-
-
-Overfull \hbox (30.66646pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 scienze
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 en-
- []
-
-
-Overfull \hbox (17.12212pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 tali.
- []
-
-
-Overfull \hbox (59.68294pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 L'incubazione
- []
-
-
-Overfull \hbox (17.63322pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 uni-
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ver-
- []
-
-
-Overfull \hbox (10.73326pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 si-
- []
-
-
-Overfull \hbox (20.82764pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 taria
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 per-
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 me-
- []
-
-
-Overfull \hbox (11.24434pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 tte
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (19.29428pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 oltre
- []
-
-
-Overfull \hbox (36.79973pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 l'accesso
- []
-
-
-Overfull \hbox (15.33324pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 alle
- []
-
-
-Overfull \hbox (27.21648pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 grandi
- []
-
-
-Overfull \hbox (23.89426pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 strut-
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 ture
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (15.33324pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 alle
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 stru-
- []
-
-
-Overfull \hbox (21.97763pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 men-
- []
-
-
-Overfull \hbox (29.38872pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 tazioni
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 pi
- []
-
-
-Overfull \hbox (66.31625pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 all'avanguardia
- []
-
-
-Overfull \hbox (48.32187pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 dell'Ateneo
- []
-
-
-Overfull \hbox (14.82213pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 mi-
- []
-
-
-Overfull \hbox (26.5776pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 lanese
- []
-
-
-Overfull \hbox (108.86603pt too wide) in paragraph at lines 23--24
-\OT1/cmr/m/it/10 (http://www.unimib.it/). 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 F
-      ood, Environment & ManageMent (FEM2): alimentazione, ambiente e gestio...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Misplaced alignment tab character &.
-l.27 Food, Environment &
-                         ManageMent (FEM2): alimentazione, ambiente e gestio...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no π in font cmti10!
-
-Overfull \hbox (43.13872pt too wide) in paragraph at lines 27--28
-[]\OT1/cmr/m/it/10 Food,
- []
-
-
-Overfull \hbox (15.98323pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 En-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 vi-
- []
-
-
-Overfull \hbox (18.01653pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ron-
- []
-
-
-Overfull \hbox (21.72208pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ment
- []
-
-
-Overfull \hbox (23.27763pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 Man-
- []
-
-
-Overfull \hbox (17.88875pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 age-
- []
-
-
-Overfull \hbox (22.51096pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 Ment
- []
-
-
-Overfull \hbox (38.6331pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 (FEM2):
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 al-
- []
-
-
-Overfull \hbox (6.6444pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 i-
- []
-
-
-Overfull \hbox (21.97763pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 men-
- []
-
-
-Overfull \hbox (33.98868pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 tazione,
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (18.1443pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ente
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (16.86653pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ges-
- []
-
-
-Overfull \hbox (21.72208pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 tione
- []
-
-
-Overfull \hbox (38.97197pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 razionale
- []
-
-
-Overfull \hbox (19.93323pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 sono
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 al-
- []
-
-
-Overfull \hbox (18.65544pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 cuni
- []
-
-
-Overfull \hbox (19.42207pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 degli
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 as-
- []
-
-
-Overfull \hbox (18.91095pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 petti
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ai
- []
-
-
-Overfull \hbox (20.69987pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 quali
- []
-
-
-Overfull \hbox (27.38872pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 FEM2
- []
-
-
-Overfull \hbox (3.57774pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 -
- []
-
-
-Overfull \hbox (18.9332pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 Am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (18.1443pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ente
- []
-
-
-Overfull \hbox (17.88875pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ded-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ica
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 par-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (12.77766pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 co-
- []
-
-
-Overfull \hbox (15.97209pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 lare
- []
-
-
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 at-
- []
-
-
-Overfull \hbox (17.12209pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ten-
- []
-
-
-Overfull \hbox (25.5554pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 zione,
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (29.64423pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 l'ottica
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (29.38867pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 fornire
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 for-
- []
-
-
-Overfull \hbox (34.24426pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 mazioni
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 stru-
- []
-
-
-Overfull \hbox (24.78873pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 menti
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 per
- []
-
-
-Overfull \hbox (10.98883pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 un
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 uti-
- []
-
-
-Overfull \hbox (18.91101pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 lizzo
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 pi
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 con-
- []
-
-
-Overfull \hbox (26.57758pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 sapev-
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ole
- []
-
-
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 delle
- []
-
-
-Overfull \hbox (32.45534pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 risorse,
- []
-
-
-Overfull \hbox (8.68884pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 in
- []
-
-
-Overfull \hbox (16.35545pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 sin-
- []
-
-
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 to-
- []
-
-
-Overfull \hbox (13.79993pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 nia
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (5.6222pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 il
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 pi-
- []
-
-
-Overfull \hbox (26.83316pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 aneta,
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 uti-
- []
-
-
-Overfull \hbox (13.2888pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 liz-
- []
-
-
-Overfull \hbox (25.04431pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 zando
- []
-
-
-Overfull \hbox (15.58873pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 tec-
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 nolo-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 gie
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (47.02188pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 conoscenze
- []
-
-
-Overfull \hbox (38.7164pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 derivanti
- []
-
-
-Overfull \hbox (20.95544pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 dalla
- []
-
-
-Overfull \hbox (28.8775pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 ricerca
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 sci-
- []
-
-
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 en-
- []
-
-
-Overfull \hbox (24.2776pt too wide) in paragraph at lines 27--28
-\OT1/cmr/m/it/10 tifica. 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 √
-      à possibile avere maggiori informazioni sui servizi di FEM2 sul sito: ...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no à in font cmti10!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 29--30
-[]
- []
-
-
-Overfull \hbox (17.37766pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 pos-
- []
-
-
-Overfull \hbox (10.73326pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 si-
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 bile
- []
-
-
-Overfull \hbox (22.61647pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 avere
- []
-
-
-Overfull \hbox (21.46652pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 mag-
- []
-
-
-Overfull \hbox (20.06097pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 giori
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 for-
- []
-
-
-Overfull \hbox (34.24426pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 mazioni
- []
-
-
-Overfull \hbox (12.52216pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 sui
- []
-
-
-Overfull \hbox (27.72758pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 servizi
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (27.38872pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 FEM2
- []
-
-
-Overfull \hbox (12.01105pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 sul
- []
-
-
-Overfull \hbox (18.65544pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 sito:
- []
-
-
-Overfull \hbox (150.26572pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/10 http://www.fem2ambiente.com/it/ 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 P
-      er i servizi di sessaggio molecolare di avifauna visitare la pagina: h...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (35.59988pt too wide) in paragraph at lines 31--32
-[]\OT1/cmr/m/it/10 Per
- []
-
-
-Overfull \hbox (3.06665pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 i
- []
-
-
-Overfull \hbox (27.72758pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 servizi
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 ses-
- []
-
-
-Overfull \hbox (17.37766pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 sag-
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 gio
- []
-
-
-Overfull \hbox (32.71086pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 moleco-
- []
-
-
-Overfull \hbox (15.97209pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 lare
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 avi-
- []
-
-
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 fauna
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 vis-
- []
-
-
-Overfull \hbox (19.80539pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 itare
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 la
- []
-
-
-Overfull \hbox (17.88875pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 pag-
- []
-
-
-Overfull \hbox (16.86658pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 ina:
- []
-
-
-Overfull \hbox (243.28734pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 http://avifauna.fem2ambiente.com/sessaggio/sessaggio-
- []
-
-
-Overfull \hbox (48.68295pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 molecolare-
- []
-
-
-Overfull \hbox (27.59985pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/it/10 smap/ 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 f
-      ondato nel 2010 che  con l'intenzione di creare prodotti e servizi per...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
-\citation{fem2ambiente}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.35 ..., tutelando l'ambiente \cite{fem2ambiente}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `fem2ambiente' on page  undefined on input line 35.
-
-
-Overfull \hbox (52.45537pt too wide) in paragraph at lines 35--36
-[]\OT1/cmr/m/it/10 fondato
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 nel
- []
-
-
-Overfull \hbox (20.44434pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 2010
- []
-
-
-Overfull \hbox (14.311pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 che
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (50.34413pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 l'intenzione
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (25.81085pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 creare
- []
-
-
-Overfull \hbox (33.34975pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 prodotti
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (27.72758pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 servizi
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 per
- []
-
-
-Overfull \hbox (5.6222pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 il
- []
-
-
-Overfull \hbox (21.08318pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 largo
- []
-
-
-Overfull \hbox (18.65543pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 pub-
- []
-
-
-Overfull \hbox (19.42207pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 blico
- []
-
-
-Overfull \hbox (9.19994pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 fi-
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 nal-
- []
-
-
-Overfull \hbox (10.73326pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 iz-
- []
-
-
-Overfull \hbox (15.58879pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 zati
- []
-
-
-Overfull \hbox (15.84436pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 alla
- []
-
-
-Overfull \hbox (47.533pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 conoscenza
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (24.2776pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 tutela
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 della
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 bio-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 di-
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 ver-
- []
-
-
-Overfull \hbox (13.54436pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 sit.
- []
-
-
-Overfull \hbox (10.87213pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 La
- []
-
-
-Overfull \hbox (18.911pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 mis-
- []
-
-
-Overfull \hbox (17.8888pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 sion
- []
-
-
-Overfull \hbox (18.14433pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 sup-
- []
-
-
-Overfull \hbox (20.8276pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 port-
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 are
- []
-
-
-Overfull \hbox (3.06665pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 i
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 con-
- []
-
-
-Overfull \hbox (26.32207pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 suma-
- []
-
-
-Overfull \hbox (15.71655pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 tori
- []
-
-
-Overfull \hbox (20.4443pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 nelle
- []
-
-
-Overfull \hbox (26.322pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 scelte,
- []
-
-
-Overfull \hbox (17.5054pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 ren-
- []
-
-
-Overfull \hbox (18.91098pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 den-
- []
-
-
-Overfull \hbox (15.84436pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 doli
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 con-
- []
-
-
-Overfull \hbox (33.73311pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 sapevoli
- []
-
-
-Overfull \hbox (20.18878pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 sulla
- []
-
-
-Overfull \hbox (24.02206pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 qualit
- []
-
-
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 delle
- []
-
-
-Overfull \hbox (29.38869pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 risorse
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 en-
- []
-
-
-Overfull \hbox (17.12212pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 tali,
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (8.68884pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 in
- []
-
-
-Overfull \hbox (27.0887pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 questo
- []
-
-
-Overfull \hbox (22.99986pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 modo
- []
-
-
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 for-
- []
-
-
-Overfull \hbox (26.06651pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 nendo
- []
-
-
-Overfull \hbox (10.22215pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 gli
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 stru-
- []
-
-
-Overfull \hbox (24.78873pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 menti
- []
-
-
-Overfull \hbox (17.88873pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 nec-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 es-
- []
-
-
-Overfull \hbox (16.48323pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 sari
- []
-
-
-Overfull \hbox (5.11108pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 a
- []
-
-
-Overfull \hbox (30.15536pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 miglio-
- []
-
-
-Overfull \hbox (17.12206pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 rare
- []
-
-
-Overfull \hbox (5.6222pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 il
- []
-
-
-Overfull \hbox (16.48322pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 loro
- []
-
-
-Overfull \hbox (17.63321pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 stile
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (19.16653pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 vita,
- []
-
-
-Overfull \hbox (20.18872pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 tute-
- []
-
-
-Overfull \hbox (23.51099pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 lando
- []
-
-
-Overfull \hbox (44.72192pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 l'ambiente
- []
-
-
-Overfull \hbox (14.63048pt too wide) in paragraph at lines 35--36
-\OT1/cmr/m/it/10 [[]]. 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 A
-      d inizio 2007 √® nato \textbf{\zpl} dall'incontro di Massimo Labra e M...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-! Undefined control sequence.
-<recently read> \zpl 
-                     
-l.37 Ad inizio 2007 √® nato \textbf{\zpl}
-                                          dall'incontro di Massimo Labra e M...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
-! Undefined control sequence.
-l.37 ...tematiche botaniche e zoologiche. Lo {\zpl
-                                                  } √® un laboratorio di ric...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-\citation{zooplantlab}
-! Undefined control sequence.
-<write> ...: Citation `\@citeb ' on page \thepage 
-                                                  \space undefined\on@line .
-l.37 ...un approccio molecolare \cite{zooplantlab}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation `zooplantlab' on page  undefined on input line 37.
-
-
-Overfull \hbox (32.03325pt too wide) in paragraph at lines 37--38
-[]\OT1/cmr/m/it/10 Ad
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 izio
- []
-
-
-Overfull \hbox (20.44434pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 2007
- []
-
-
-Overfull \hbox (19.16655pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 nato
- []
-
-
-Overfull \hbox (54.56075pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 dall'incontro
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (21.74431pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Mas-
- []
-
-
-Overfull \hbox (20.44434pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 simo
- []
-
-
-Overfull \hbox (24.28868pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Labra
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (23.02208pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Mau-
- []
-
-
-Overfull \hbox (7.79437pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 r-
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 izio
- []
-
-
-Overfull \hbox (27.21648pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Casir-
- []
-
-
-Overfull \hbox (20.95543pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 aghi,
- []
-
-
-Overfull \hbox (15.07768pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 due
- []
-
-
-Overfull \hbox (23.76645pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ricer-
- []
-
-
-Overfull \hbox (12.77766pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ca-
- []
-
-
-Overfull \hbox (15.71655pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 tori
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 del
- []
-
-
-Overfull \hbox (14.19434pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Di-
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 par-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (26.83316pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 mento
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (30.80531pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Biotec-
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 nolo-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 gie
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (18.79433pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Bio-
- []
-
-
-Overfull \hbox (30.66646pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 scienze
- []
-
-
-Overfull \hbox (58.41628pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 dell'Universit
- []
-
-
-Overfull \hbox (19.42207pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 degli
- []
-
-
-Overfull \hbox (22.48875pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Studi
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (15.61101pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Mi-
- []
-
-
-Overfull \hbox (18.3999pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 lano
- []
-
-
-Overfull \hbox (18.2832pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Bic-
- []
-
-
-Overfull \hbox (17.88872pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 occa
- []
-
-
-Overfull \hbox (14.311pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 che
- []
-
-
-Overfull \hbox (7.15552pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 si
- []
-
-
-Overfull \hbox (12.77766pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 oc-
- []
-
-
-Overfull \hbox (13.54434pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 cu-
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 pano
- []
-
-
-Overfull \hbox (27.472pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 rispet-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 va-
- []
-
-
-Overfull \hbox (26.32204pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 mente
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (19.67763pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 tem-
- []
-
-
-Overfull \hbox (25.81093pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 atiche
- []
-
-
-Overfull \hbox (40.63304pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 botaniche
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 zo-
- []
-
-
-Overfull \hbox (8.68883pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 o-
- []
-
-
-Overfull \hbox (32.19977pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 logiche.
- []
-
-
-Overfull \hbox (10.87213pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 Lo
- []
-
-
-Overfull \hbox (10.98883pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 un
- []
-
-
-Overfull \hbox (15.84433pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 lab-
- []
-
-
-Overfull \hbox (8.68883pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 o-
- []
-
-
-Overfull \hbox (12.39433pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ra-
- []
-
-
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 to-
- []
-
-
-Overfull \hbox (12.39436pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 rio
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (28.8775pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ricerca
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 zo-
- []
-
-
-Overfull \hbox (16.35545pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 olo-
- []
-
-
-Overfull \hbox (15.84435pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 gia,
- []
-
-
-Overfull \hbox (26.83313pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 botan-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ica
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (14.82213pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 mi-
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 cro-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (16.35545pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 olo-
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 gia
- []
-
-
-Overfull \hbox (14.311pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 che
- []
-
-
-Overfull \hbox (12.77766pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 co-
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ni-
- []
-
-
-Overfull \hbox (15.07768pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 uga
- []
-
-
-Overfull \hbox (28.8775pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ricerca
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (17.88875pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 base
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ap-
- []
-
-
-Overfull \hbox (14.31102pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 pli-
- []
-
-
-Overfull \hbox (17.6332pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 cata
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 pro-
- []
-
-
-Overfull \hbox (18.91095pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 getti
- []
-
-
-Overfull \hbox (14.311pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 che
- []
-
-
-Overfull \hbox (26.19421pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 preve-
- []
-
-
-Overfull \hbox (20.95544pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 dono
- []
-
-
-Overfull \hbox (36.28868pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 l'utilizzo
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (10.98883pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 un
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 ap-
- []
-
-
-Overfull \hbox (21.59425pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 proc-
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 cio
- []
-
-
-Overfull \hbox (32.71086pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 moleco-
- []
-
-
-Overfull \hbox (15.97209pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 lare
- []
-
-
-Overfull \hbox (14.63048pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/it/10 [[]]. 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 N
-      el gennaio 2010 grazie al contributo e i risultati della ricerca di {\...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.39 ...ibuto e i risultati della ricerca di {\zpl
-                                                  } viene fondato {\femsrl} ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.39 ...a ricerca di {\zpl} viene fondato {\femsrl
-                                                  } dai quattro soci fondato...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (34.58879pt too wide) in paragraph at lines 39--40
-[]\OT1/cmr/m/it/10 Nel
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 gen-
- []
-
-
-Overfull \hbox (18.91101pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 naio
- []
-
-
-Overfull \hbox (20.44434pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 2010
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 gra-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 zie
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 al
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 con-
- []
-
-
-Overfull \hbox (18.78317pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 trib-
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 uto
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (3.06665pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 i
- []
-
-
-Overfull \hbox (22.87207pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 risul-
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 tati
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 della
- []
-
-
-Overfull \hbox (28.8775pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 ricerca
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (22.48872pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 viene
- []
-
-
-Overfull \hbox (32.45537pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 fondato
- []
-
-
-Overfull \hbox (13.28882pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 dai
- []
-
-
-Overfull \hbox (21.97762pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 quat-
- []
-
-
-Overfull \hbox (12.13878pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 tro
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 soci
- []
-
-
-Overfull \hbox (27.59984pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 fonda-
- []
-
-
-Overfull \hbox (18.7832pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 tori:
- []
-
-
-Overfull \hbox (22.37206pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Dott.
- []
-
-
-Overfull \hbox (12.1499pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 De
- []
-
-
-Overfull \hbox (20.97763pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Mat-
- []
-
-
-Overfull \hbox (11.49992pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 tia
- []
-
-
-Overfull \hbox (19.04985pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Fab-
- []
-
-
-Overfull \hbox (22.61653pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 rizio,
- []
-
-
-Overfull \hbox (22.37206pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Dott.
- []
-
-
-Overfull \hbox (21.86093pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Ferri
- []
-
-
-Overfull \hbox (45.88306pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Emanuele,
- []
-
-
-Overfull \hbox (22.37206pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Dott.
- []
-
-
-Overfull \hbox (24.28868pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Labra
- []
-
-
-Overfull \hbox (21.74431pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Mas-
- []
-
-
-Overfull \hbox (23.51099pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 simo,
- []
-
-
-Overfull \hbox (22.37206pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Dott.
- []
-
-
-Overfull \hbox (27.21648pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Casir-
- []
-
-
-Overfull \hbox (17.88878pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 aghi
- []
-
-
-Overfull \hbox (23.02208pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 Mau-
- []
-
-
-Overfull \hbox (7.79437pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 r-
- []
-
-
-Overfull \hbox (18.3999pt too wide) in paragraph at lines 39--40
-\OT1/cmr/m/it/10 izio. 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 F
-      ood, Environment \& ManageMent (FEM2): alimentazione, ambiente e gesti...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.41 ...e sono alcuni degli aspetti ai quali {\fem
-                                                  } dedica particolare atten...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no π in font cmti10!
-
-Overfull \hbox (43.13872pt too wide) in paragraph at lines 41--42
-[]\OT1/cmr/m/it/10 Food,
- []
-
-
-Overfull \hbox (15.98323pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 En-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 vi-
- []
-
-
-Overfull \hbox (18.01653pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ron-
- []
-
-
-Overfull \hbox (21.72208pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ment
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 &
- []
-
-
-Overfull \hbox (23.27763pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 Man-
- []
-
-
-Overfull \hbox (17.88875pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 age-
- []
-
-
-Overfull \hbox (22.51096pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 Ment
- []
-
-
-Overfull \hbox (38.6331pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 (FEM2):
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 al-
- []
-
-
-Overfull \hbox (6.6444pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 i-
- []
-
-
-Overfull \hbox (21.97763pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 men-
- []
-
-
-Overfull \hbox (33.98868pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 tazione,
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (18.1443pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ente
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (16.86653pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ges-
- []
-
-
-Overfull \hbox (21.72208pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 tione
- []
-
-
-Overfull \hbox (38.97197pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 razionale
- []
-
-
-Overfull \hbox (19.93323pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 sono
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 al-
- []
-
-
-Overfull \hbox (18.65544pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 cuni
- []
-
-
-Overfull \hbox (19.42207pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 degli
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 as-
- []
-
-
-Overfull \hbox (18.91095pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 petti
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ai
- []
-
-
-Overfull \hbox (20.69987pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 quali
- []
-
-
-Overfull \hbox (17.88875pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ded-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ica
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 par-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (12.77766pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 co-
- []
-
-
-Overfull \hbox (15.97209pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 lare
- []
-
-
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 at-
- []
-
-
-Overfull \hbox (17.12209pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ten-
- []
-
-
-Overfull \hbox (25.5554pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 zione,
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (29.64423pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 l'ottica
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (29.38867pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 fornire
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 for-
- []
-
-
-Overfull \hbox (34.24426pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 mazioni
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 stru-
- []
-
-
-Overfull \hbox (24.78873pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 menti
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 per
- []
-
-
-Overfull \hbox (10.98883pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 un
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 uti-
- []
-
-
-Overfull \hbox (18.91101pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 lizzo
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 pi
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 con-
- []
-
-
-Overfull \hbox (26.57758pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 sapev-
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ole
- []
-
-
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 delle
- []
-
-
-Overfull \hbox (32.45534pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 risorse,
- []
-
-
-Overfull \hbox (8.68884pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 in
- []
-
-
-Overfull \hbox (16.35545pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 sin-
- []
-
-
-Overfull \hbox (12.01102pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 to-
- []
-
-
-Overfull \hbox (13.79993pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 nia
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (5.6222pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 il
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 pi-
- []
-
-
-Overfull \hbox (26.83316pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 aneta,
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 uti-
- []
-
-
-Overfull \hbox (13.2888pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 liz-
- []
-
-
-Overfull \hbox (25.04431pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 zando
- []
-
-
-Overfull \hbox (15.58873pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 tec-
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 nolo-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 gie
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (47.02188pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 conoscenze
- []
-
-
-Overfull \hbox (38.7164pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 derivanti
- []
-
-
-Overfull \hbox (20.95544pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 dalla
- []
-
-
-Overfull \hbox (28.8775pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 ricerca
- []
-
-
-Overfull \hbox (15.33322pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 sci-
- []
-
-
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 en-
- []
-
-
-Overfull \hbox (24.2776pt too wide) in paragraph at lines 41--42
-\OT1/cmr/m/it/10 tifica. 
- []
-
-! Undefined control sequence.
-l.43 {\fem
-          } dispone di moderni laboratori ospitati presso l‚ÄôUniversit√†, n...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 {\fem} d
-             ispone di moderni laboratori ospitati presso l‚ÄôUniversit√†, n...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no ‚ in font cmti10!
-Missing character: There is no Ä in font cmti10!
-Missing character: There is no ô in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
-! Undefined control sequence.
-l.43 ...ione molecolare. Grazie ad essi oggi {\fem
-                                                  }, pur mantenendo le sue s...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
-
-Overfull \hbox (52.1998pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/it/10 dispone
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (21.46652pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 mod-
- []
-
-
-Overfull \hbox (17.50543pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 erni
- []
-
-
-Overfull \hbox (15.84433pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 lab-
- []
-
-
-Overfull \hbox (8.68883pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 o-
- []
-
-
-Overfull \hbox (12.39433pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ra-
- []
-
-
-Overfull \hbox (15.71655pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tori
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 os-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 pi-
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tati
- []
-
-
-Overfull \hbox (26.70537pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 presso
- []
-
-
-Overfull \hbox (13.56657pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 lU-
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ni-
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ver-
- []
-
-
-Overfull \hbox (13.54436pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 sit,
- []
-
-
-Overfull \hbox (13.2888pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nei
- []
-
-
-Overfull \hbox (20.69987pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 quali
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ven-
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 gono
- []
-
-
-Overfull \hbox (28.36649pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 svilup-
- []
-
-
-Overfull \hbox (16.09988pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 pati
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (15.58876pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tes-
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tati
- []
-
-
-Overfull \hbox (3.06665pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 i
- []
-
-
-Overfull \hbox (23.76653pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nuovi
- []
-
-
-Overfull \hbox (36.4164pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 prodotti,
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 es-
- []
-
-
-Overfull \hbox (8.1777pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 e-
- []
-
-
-Overfull \hbox (20.9554pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 guite
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 anal-
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 isi
- []
-
-
-Overfull \hbox (9.4555pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 su
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ma-
- []
-
-
-Overfull \hbox (18.27208pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 trici
- []
-
-
-Overfull \hbox (16.86656pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 am-
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 en-
- []
-
-
-Overfull \hbox (14.05547pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tali
- []
-
-
-Overfull \hbox (15.84435pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 (es:
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ac-
- []
-
-
-Overfull \hbox (18.14433pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 qua,
- []
-
-
-Overfull \hbox (17.50545pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 aria
- []
-
-
-Overfull \hbox (5.11108pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 o
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 al-
- []
-
-
-Overfull \hbox (6.6444pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 i-
- []
-
-
-Overfull \hbox (31.94424pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 menti),
- []
-
-
-Overfull \hbox (7.15552pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 si
- []
-
-
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 svol-
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 gono
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 anal-
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 isi
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 del
- []
-
-
-Overfull \hbox (22.41652pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 DNA
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ven-
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 gono
- []
-
-
-Overfull \hbox (25.55539pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 messe
- []
-
-
-Overfull \hbox (5.11108pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 a
- []
-
-
-Overfull \hbox (24.53319pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 punto
- []
-
-
-Overfull \hbox (43.18858pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 metodiche
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (14.31102pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 no-
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 va-
- []
-
-
-Overfull \hbox (15.58876pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tive
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (24.91644pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 carat-
- []
-
-
-Overfull \hbox (15.71652pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ter-
- []
-
-
-Overfull \hbox (10.73326pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 iz-
- []
-
-
-Overfull \hbox (31.6887pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 zazione
- []
-
-
-Overfull \hbox (32.71086pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 moleco-
- []
-
-
-Overfull \hbox (19.03874pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 lare.
- []
-
-
-Overfull \hbox (20.1304pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 Gra-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 zie
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ad
- []
-
-
-Overfull \hbox (15.84435pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 essi
- []
-
-
-Overfull \hbox (16.86653pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 oggi
- []
-
-
-Overfull \hbox (3.06665pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ,
- []
-
-
-Overfull \hbox (14.69435pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 pur
- []
-
-
-Overfull \hbox (22.48875pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 man-
- []
-
-
-Overfull \hbox (11.4999pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 te-
- []
-
-
-Overfull \hbox (26.06651pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nendo
- []
-
-
-Overfull \hbox (7.1555pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 le
- []
-
-
-Overfull \hbox (14.05547pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 sue
- []
-
-
-Overfull \hbox (24.53319pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 solide
- []
-
-
-Overfull \hbox (24.66093pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 radici
- []
-
-
-Overfull \hbox (17.63322pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 uni-
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ver-
- []
-
-
-Overfull \hbox (10.73326pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 si-
- []
-
-
-Overfull \hbox (20.31651pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tarie
- []
-
-
-Overfull \hbox (9.19992pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ed
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (37.0553pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 vestendo
- []
-
-
-Overfull \hbox (20.95543pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nella
- []
-
-
-Overfull \hbox (31.94415pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ricerca,
- []
-
-
-Overfull \hbox (7.15552pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 si
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 af-
- []
-
-
-Overfull \hbox (15.46098pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 fer-
- []
-
-
-Overfull \hbox (21.72209pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 mata
- []
-
-
-Overfull \hbox (14.31102pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 an-
- []
-
-
-Overfull \hbox (14.311pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 che
- []
-
-
-Overfull \hbox (21.97762pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 come
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 so-
- []
-
-
-Overfull \hbox (15.58876pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ciet
- []
-
-
-Overfull \hbox (20.9554pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 com-
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 mer-
- []
-
-
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ciale
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 pro-
- []
-
-
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 pone
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 al
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 mer-
- []
-
-
-Overfull \hbox (17.6332pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 cato
- []
-
-
-Overfull \hbox (40.88866pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nazionale
- []
-
-
-Overfull \hbox (9.19992pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ed
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (15.71652pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ter-
- []
-
-
-Overfull \hbox (40.88866pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nazionale
- []
-
-
-Overfull \hbox (33.34975pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 prodotti
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (27.72758pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 servizi
- []
-
-
-Overfull \hbox (66.31625pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 all'avanguardia
- []
-
-
-Overfull \hbox (13.2888pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nei
- []
-
-
-Overfull \hbox (15.58876pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 set-
- []
-
-
-Overfull \hbox (15.71655pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tori
- []
-
-
-Overfull \hbox (60.56627pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 dell'ambiente,
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 del
- []
-
-
-Overfull \hbox (17.37766pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 food
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 della
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 di-
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 ag-
- []
-
-
-Overfull \hbox (18.39989pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 nos-
- []
-
-
-Overfull \hbox (15.58876pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 tica
- []
-
-
-Overfull \hbox (32.71086pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 moleco-
- []
-
-
-Overfull \hbox (15.97209pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 lare
- []
-
-
-Overfull \hbox (24.02206pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 avan-
- []
-
-
-Overfull \hbox (20.69987pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/it/10 zata. 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 N
-      egli ultimi anni √® diventato leader di mercato nella \emph{diagnostic...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-
-Overfull \hbox (41.74428pt too wide) in paragraph at lines 45--46
-[]\OT1/cmr/m/it/10 Negli
- []
-
-
-Overfull \hbox (11.49992pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 ul-
- []
-
-
-Overfull \hbox (17.63322pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 timi
- []
-
-
-Overfull \hbox (19.42212pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 anni
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 di-
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 ven-
- []
-
-
-Overfull \hbox (16.86655pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 tato
- []
-
-
-Overfull \hbox (25.68314pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 leader
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 mer-
- []
-
-
-Overfull \hbox (17.6332pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 cato
- []
-
-
-Overfull \hbox (20.95543pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 nella
- []
-
-
-Overfull \hbox (11.66669pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 di-
- []
-
-
-Overfull \hbox (13.33336pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 ag-
- []
-
-
-Overfull \hbox (17.83336pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 nos-
- []
-
-
-Overfull \hbox (16.11115pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 tica
- []
-
-
-Overfull \hbox (33.33339pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 moleco-
- []
-
-
-Overfull \hbox (16.13892pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 lare
- []
-
-
-Overfull \hbox (8.33336pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 di
- []
-
-
-Overfull \hbox (16.11115pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 avi-
- []
-
-
-Overfull \hbox (24.16675pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/10 fauna
- []
-
-
-Overfull \hbox (31.30531pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 tramite
- []
-
-
-Overfull \hbox (21.2332pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 PCR
- []
-
-
-Overfull \hbox (26.06651pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 (anal-
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 isi
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 del
- []
-
-
-Overfull \hbox (29.57204pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 DNA),
- []
-
-
-Overfull \hbox (9.19992pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 ed
- []
-
-
-Overfull \hbox (19.16655pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 nata
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 la
- []
-
-
-Overfull \hbox (13.7999pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 ne-
- []
-
-
-Overfull \hbox (16.35541pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 ces-
- []
-
-
-Overfull \hbox (15.58879pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 sita
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (28.36649pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 svilup-
- []
-
-
-Overfull \hbox (18.01651pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 pare
- []
-
-
-Overfull \hbox (16.09991pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 una
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 pi-
- []
-
-
-Overfull \hbox (42.54973pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 attaforma
- []
-
-
-Overfull \hbox (27.08871pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 adatta
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 per
- []
-
-
-Overfull \hbox (12.77766pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 ge-
- []
-
-
-Overfull \hbox (18.78317pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 stire
- []
-
-
-Overfull \hbox (19.93317pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 tutte
- []
-
-
-Overfull \hbox (7.1555pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 le
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 fasi
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 anal-
- []
-
-
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 isi
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 ven-
- []
-
-
-Overfull \hbox (16.61101pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 dita
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 dei
- []
-
-
-Overfull \hbox (30.79424pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/it/10 servizi. 
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \textbf{\femsrl}
-                      √® uno spin-off del Dipartimento di Biotecnologie e Bi...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<recently read> \femsrl 
-                        
-l.56 \textbf{\femsrl}
-                      √® uno spin-off del Dipartimento di Biotecnologie e Bi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no ® in font cmti10!
-! Undefined control sequence.
-l.56 ...i Biotecnologie e Bioscienze dell'{\unimib
-                                                  }, nato con l'intenzione d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no √ in font cmti10!
-Missing character: There is no © in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no © in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no π in font cmti10!
-Missing character: There is no √ in font cmti10!
-Missing character: There is no † in font cmti10!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 56--57
-[]
- []
-
-
-Overfull \hbox (16.09991pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 uno
- []
-
-
-Overfull \hbox (21.46654pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 spin-
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 off
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 del
- []
-
-
-Overfull \hbox (14.19434pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 Di-
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 par-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (26.83316pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 mento
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (30.80531pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 Biotec-
- []
-
-
-Overfull \hbox (21.97765pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 nolo-
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 gie
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (18.79433pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 Bio-
- []
-
-
-Overfull \hbox (30.66646pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 scienze
- []
-
-
-Overfull \hbox (21.46654pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 dell',
- []
-
-
-Overfull \hbox (19.16655pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 nato
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (50.34413pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 l'intenzione
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (18.14433pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 sup-
- []
-
-
-Overfull \hbox (20.8276pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 port-
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 are
- []
-
-
-Overfull \hbox (3.06665pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 i
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 con-
- []
-
-
-Overfull \hbox (26.32207pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 suma-
- []
-
-
-Overfull \hbox (15.71655pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 tori
- []
-
-
-Overfull \hbox (20.4443pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 nelle
- []
-
-
-Overfull \hbox (23.25536pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 scelte
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 dei
- []
-
-
-Overfull \hbox (33.34975pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 prodotti
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (27.72758pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 servizi
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 bi-
- []
-
-
-Overfull \hbox (8.68883pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 o-
- []
-
-
-Overfull \hbox (25.55537pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 logici.
- []
-
-
-Overfull \hbox (35.14978pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 Fondato
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 nel
- []
-
-
-Overfull \hbox (23.51099pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 2010,
- []
-
-
-Overfull \hbox (7.15552pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 si
- []
-
-
-Overfull \hbox (28.36649pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 svilup-
- []
-
-
-Overfull \hbox (18.14432pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 pato
- []
-
-
-Overfull \hbox (9.19992pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 ed
- []
-
-
-Overfull \hbox (28.23865pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 cresci-
- []
-
-
-Overfull \hbox (13.79991pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 uto
- []
-
-
-Overfull \hbox (20.4443pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 sem-
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 pre
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 pi
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 gra-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 zie
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 al
- []
-
-
-Overfull \hbox (18.14433pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 sup-
- []
-
-
-Overfull \hbox (22.36095pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 porto
- []
-
-
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 for-
- []
-
-
-Overfull \hbox (17.12212pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 nito
- []
-
-
-Overfull \hbox (58.9274pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 dall'Universit
- []
-
-
-Overfull \hbox (13.41655pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 per
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 la
- []
-
-
-Overfull \hbox (28.8775pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 ricerca
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 gra-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 zie
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 al
- []
-
-
-Overfull \hbox (14.56659pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 suo
- []
-
-
-Overfull \hbox (14.82213pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 im-
- []
-
-
-Overfull \hbox (21.4665pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 patto
- []
-
-
-Overfull \hbox (12.01105pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 sul
- []
-
-
-Overfull \hbox (20.57207pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 mer-
- []
-
-
-Overfull \hbox (17.6332pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 cato
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 con
- []
-
-
-Overfull \hbox (33.34975pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 prodotti
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (14.31102pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 no-
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 va-
- []
-
-
-Overfull \hbox (14.05545pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 tivi
- []
-
-
-Overfull \hbox (4.59996pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 e
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 di
- []
-
-
-Overfull \hbox (22.99985pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 facile
- []
-
-
-Overfull \hbox (17.63324pt too wide) in paragraph at lines 56--57
-\OT1/cmr/m/it/10 uso. 
- []
-
 )
 ! Emergency stop.
 <*> introduzione.tex
@@ -6390,11 +1735,11 @@ Overfull \hbox (17.63324pt too wide) in paragraph at lines 56--57
 
  
 Here is how much of TeX's memory you used:
- 26 strings out of 493054
- 374 string characters out of 6134760
- 74372 words of memory out of 5000000
- 3644 multiletter control sequences out of 15000+600000
- 4653 words of font info for 17 fonts, out of 8000000 for 9000
+ 19 strings out of 493054
+ 294 string characters out of 6134759
+ 56372 words of memory out of 5000000
+ 3640 multiletter control sequences out of 15000+600000
+ 4294 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,4n,17p,646b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 20i,3n,13p,731b,110s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
