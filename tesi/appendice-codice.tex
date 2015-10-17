@@ -1,0 +1,143 @@
+\chapter{Codice Sorgente}
+\label{app:codice}
+
+In questa sezione sono riportate e commentate alcune parti del codice sorgente citate nel corso della relazione.
+
+\section*{Templates Django}
+\label{app:templates}
+
+Come illustrato nel corso della discussione Django fornisce uno strumento utile per centralizzare e non duplicare codice HTML, i \emph{templates}.
+
+Il file \texttt{base.html} (di seguito parte del codice semplificato) è stato necessario per includere in un unico documento tutte le informazioni statiche e ripetute in tutti gli altri file HTML del progetto.
+
+\begin{footnotesize}
+\begin{verbatim}
+ <html>
+ <head>
+   <title>{% block title %}fem2ambiente {% endblock %}</title>
+   <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+ </head>
+ <body>
+    <nav role="navigation">                        
+      {% include "login.html" %}
+    </nav>   
+   <main>
+     {% block content %}{% endblock %}
+   </main>
+
+   {% block jsexec %}
+     <script src="/static/js/bootstrap.js"></script>
+   {% endblock %}
+ </body>
+ </html>
+\end{verbatim}
+\end{footnotesize}
+
+Si può notare che:
+\begin{itemize}
+ \item nell'intestazione del documento (\texttt{head}) il blocco \tag{title} contiene \dja{block title}, sintassi di Django che permette di includere all'interno del blocco un titolo diverso per ogni file HTML che viene esteso.
+ \item \dja{include "login.html"} è la chiamata per includere in quella sezione della barra di navigazione il file dedicato al login, nel quale, in base allo stato del cliente (loggato o no), viene mostrato il form di login oppure i dati personali.
+ \item \dja{block content} indica dove è inserito il codice HTML del file che estende.
+ \item \dja{block jsexec} indica la sezione dedicata all'inserimento degli script {\js} in aggiunta o sovrascrivendo quelli già presenti nel file di base.
+\end{itemize}
+
+Di seguito un esempio di estensione del file \texttt{base.html}.
+
+\begin{footnotesize}
+\begin{verbatim}
+ {% extends "base.html" %}
+ 
+ {% block title %}
+   {{ block.super }} - Pagina Personale
+ {% endblock %}
+ 
+ {% block content %}
+   <div>[...]</div>
+ {% endblock %}
+ 
+ {% block jsexec %}
+   {{ block.super }}
+   <script type="text/javascript" src="/static/js/fledjed.js"></script>
+ {% endblock %}
+\end{verbatim}
+\end{footnotesize}
+
+Si può notare che:
+\begin{itemize}
+ \item nella prima riga \dja{extends "base.html"} indica la necessità di prendere tutte le informazioni di intestazione e inclusioni di file statici CSS o {\js} dal file di base.
+ \item in \dja{block title} (come in \dja{block jsexec}) è presente la riga di codice \{\{\texttt{block.super}\}\}; essa indica l'ereditarietà del contenuto del blocco titolo (o javascript) presente nel file di base ed esteso con il contenuto del file in questione; è un comportamento al \texttt{super} in Java. Il titolo risultante del codice appena descritto è \texttt{fem2ambiente - Pagina Personale}.
+\end{itemize}
+
+
+\section*{Traduzione}
+\label{app:traduzione}
+Django mette a disposizione un sistema per la gestione multilingua della piattaforma, per farlo è necessario inserire piccole parti di codice in tutti i punti che dovranno essere tradotti, dette \emph{translation strings}. Django provvede automaticamente in compilazione ad incapsulare le stringhe da tradurre e trasferirle in una serie di file appositi dove è inserita ogni stringa e il corrispondente spazio per la traduzione; una volta popolati i file (le traduzioni sono da inserire manualmente (Django non fornisce un traduttore incorporato) il sistema sarà pronto per supportare il multilingua.
+
+Nel file \texttt{settings.py} vengono impostate le lingue in cui tradurre il sito con il seguente codice:
+\begin{footnotesize}
+\begin{verbatim}
+ LANGUAGES = (
+  ('it', gettext('Italian')),
+  ('en', gettext('English')),
+ )
+\end{verbatim}
+\end{footnotesize}
+
+In ogni template HTML è poi necessario inserire in testa al file la riga di codice \dja{load i18n} per permettere a Django di individuare le stringe da tradurre in mezzo al contenuto. Esse inoltre sono rese meglio identificabili attraverso l'utilizzo di alcuni tag.
+
+\begin{itemize}
+ \item \texttt{trans} seguito dalla stringa da tradurre
+  \begin{footnotesize}
+  \begin{verbatim}
+   {% trans "stringa da tradurre" %}
+  \end{verbatim}
+  \end{footnotesize}
+ \item \texttt{trans} seguito dalla stringa da tradurre e la variabile ad essa associata; utile nel caso in cui la stringa viene ripetuta più volte all'interno del documento
+  \begin{footnotesize}
+  \begin{verbatim}
+   {% trans "stringa da tradurre" as esempio_variabile %}
+  \end{verbatim}
+  \end{footnotesize}
+ \item Un blocco identificato da \texttt{blocktrans} che include al suo interno la stringa da tradurre ed eventuali variabili definite in precedenza; esso è utile nel caso in cui si voglia lasciare all'interno porzioni in HTML, che però andranno ripetute in sede di traduzione
+  \begin{footnotesize}
+  \begin{verbatim}
+   {% blocktrans %} 
+     stringa da tradurre 
+     nella quale si può inserire una o più variabili
+     come {{esempio_variabile}}
+   {% endblocktrans %}
+  \end{verbatim}
+  \end{footnotesize}
+\end{itemize}
+
+Procedimento analogo va applicato ai file {\js} che prevedono un output testuale che richiede traduzione; la stringa utilizzata per identificarlo è \texttt{gettext()}, utilizzata come nel seguente esempio:
+\begin{footnotesize}
+\begin{verbatim}
+ document.write(gettext('stringa da tradurre'));
+\end{verbatim}
+\end{footnotesize}
+
+Il risultato finale sono file generati da Django con l'estensione \texttt{.po} in cui viene indicato path, nome del file e riga di codice di ogni stringa da tradurre, e la stringa stessa inserita nel file originale seguita dallo spazio per inserire la traduzione.
+\begin{footnotesize}
+\begin{verbatim}
+ #: path/del/file.py:23
+ msgid "Benvenuti nel mio sito."
+ msgstr "Welcome to my site."
+\end{verbatim}
+\end{footnotesize}
+
+Per collezionare le stringhe dai tempaltes di tutto il progetto, compilarle e creare i file \texttt{.po}, da terminale si esegue
+\begin{footnotesize}
+\begin{verbatim}
+ $ ./manage.py makemessages
+ $ ./manage.py compilemessages
+\end{verbatim}
+\end{footnotesize}
+
+Per collezionare le stringhe dei file {\js} invece da terminale si esegue, per ogni lingua
+\begin{footnotesize}
+\begin{verbatim}
+ $ ./manage.py makemessages -d djangojs -l it
+\end{verbatim}
+\end{footnotesize}
+facendo attenzione ad inserire correttamente la sigla corrispondente ad ogni lingua precedentemente definita nel file \texttt{settings.py}.

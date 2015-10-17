@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{style}
+\usepackage{parskip}
+
+\author{
+	Mattia Curatitoli \\ 
+	matricola 735722 \\
+	\\
+	\textbf{Relatore}: Daniela Micucci \\
+	\textbf{Correlatore}: Emanuele Ferri
+}
+\title{Sviluppo e-commerce avifauna.fem2ambiente.com}
+\subtitle{
+	Sintesi della relazione finale \\
+ 	Ottobre 2015
+}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+\textbf{\femsrl} è uno spin-off del Dipartimento di Biotecnologie e Bioscienze dell'{\unimib} costituito nel 2010 con l'obiettivo di immettere nel mercato prodotti e servizi rivolti all'educazione, alla tutela delle risorse ambientali e alla conoscenza della biodiversità. 
+
+{\fem} ha sede negli edifici universitari, un ambiente di lavoro ideale dove è possibile tradurre in applicazioni pratiche conoscenze che vanno dalle biotecnologie animali e vegetali sino alle scienze ambientali; l'incubazione universitaria fornisce inoltre l'accesso alle grandi strutture e alle strumentazioni più all'avanguardia che hanno permesso lo sviluppo di prodotti mirati all'avifauna. 
+
+La quantità di servizi offerta è cresciuta, come la clientela, fino ad arrivare ad essere uno dei leader del mercato nel settore. È stato necessario quindi evolvere il primordiale approccio con il cliente attraverso fogli Excel, fino a costruire una piattaforma in grado di gestire il completo flusso di ordini.
+
+Questo sviluppo è l'argomento della relazione ed è stato l'ambito del lavoro di stage, in particolare l'obiettivo dello stage è stato quello di sviluppare una piattaforma web per la creazione di un e-commerce personalizzato, facendo attenzione ad ogni parte del processo costruttivo.
+
+È stato necessario l'utilizzo di diverse tecnologie in funzione delle richieste. Per la parte del sito più informativa ed espositiva è stato scelto {\wp}, un CMS (Content Management System) in grado di essere facilmente usabile ad aggiornabile da persone non tecniche del settore informatico. Per la piattaforma vera e propria di acquisti è stato scelto un framework web in grado di sostenere una piattaforma autonoma e permettere la gestione completa di un flusso ordini personalizzato come quello del Portale Avifauna.
+  
+Nel primo capitolo della relazione è descritta la storia ed evoluzione dell'azienda {\femsrl} fino ad arrivare alla richiesta di sviluppo della piattaforma web. 
+
+Nel secondo capitolo è descritta la scelta e l'installazione di {\wp} come Content Management System, una software da installare sul proprio server che mette a disposizione una piattaforma facilmente gestibile anche da personale senza capacità informatiche. Una soluzione ottima per descrivere l'azienda, la sua mission e i servizi offerti.
+
+Il terzo capitolo è dedicato al vero e proprio sviluppo del Portale attraverso la descrizione di tutti i tool e framework utilizzati.
+
+La scelta del framework web è ricaduta su \emph{Django} grazie alla sua flessibilità e alle sue proprietà che hanno permesso di supportare la realizzazione una struttura complessa. Django ha incluso un sistema di traduzione in modo da creare una piattaforma multilingua e un gestore dei file ottimizzato. Inoltre è stato possibile completare la piattaforma con tool dedicati alla costruzione di un pannello admin completamente funzionale e gestori per la creazione di file pdf e file testuali dedicati all'esportazione di dati finalizzati al calcolo di statistiche.
+
+L'interfaccia web per l'intero flusso di creazione e gestione dell'ordine sia dal lato cliente che dal lato amministatore è stata sviluppata sfruttando alcune tra le più famose tecnologie dedicate al web: linguaggi come \emph{{\js}}, \emph{CSS}, \emph{HTML}, e il framework \emph{Bootstrap}.
+
+HTML è stato lo scheletro alla base di tutte le pagine visitate, sfruttando il sistema di template fornito da Django, e connesso ai fogli di stile CSS per il sostegno alla struttura e al lato estetico. {\js} si è rivelato essenziale per le funzionalità aggiuntive e per la creazione di un interfaccia più usabile ed intuitiva per il cliente finale.
+
+Bootstrap è stato un ottimo supporto per il livello più alto dell'interfaccia grazie al suo framework completo di regole CSS, {\js} e l'integrazione con tool dedicati ai font.
+
+
+Il risultato è stato un sito fluido e funzionale che fonde la parte espositiva dei servizi forniti con la piattaforma di vendita vera e propria, nascondendo al cliente la complessità del sistema, ma contemporaneamente fornendo ai dipendenti di {\fem} uno strumento completo per la gestione di tutti i componenti, dal sito, al flusso degli ordini, alla gestione delle analisi fino alla generazione di attestati finali.
+
+Per approfondire alcune porzioni di codice significative è stata aggiunta un'appendice che pone l'attenzione su alcuni particolari funzioni fornite dal framework Django.
+
+Per descrivere al meglio le azioni possibili e fornire una guida per il corretto utilizzo sia lato amministratore che lato cliente sono state scritte rispettivamente le appendici per l'admin e per il cliente.
+
+\end{document}

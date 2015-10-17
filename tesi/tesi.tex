@@ -1,0 +1,27 @@
+%\documentclass[12pt, a4paper]{scrreprt}
+\documentclass[12pt, a4paper, twoside, openright]{scrreprt}
+
+\usepackage{style}
+
+\begin{document}
+
+\input{titolo.tex}
+\tableofcontents
+
+\input{introduzione.tex}
+
+\input{fem2ambiente.tex} %\label{chp:fem}
+
+\input{wordpress.tex} %\label{chp:wp}
+\input{sviluppo.tex} %\label{chp:sviluppo}
+
+\input{conclusioni.tex}
+
+\appendix
+\input{appendice-codice.tex} %\label{app:codice}
+\input{appendice-admin.tex} %\label{app:admin}
+\input{appendice-cliente.tex} %\label{app:cliente}
+
+\input{bibliografia.tex}
+
+\end{document}
