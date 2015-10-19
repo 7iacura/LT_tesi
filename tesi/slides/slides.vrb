@@ -1,0 +1,17 @@
+\frametitle{ensembl-rest}
+\begin{verbatim}
+{
+   "scientific_name" : "Homo sapiens",
+   "parent" : {
+      "scientific_name" : "Homo",
+      "name" : "Homo",
+      "id" : "9605",
+      "leaf" : 0,
+      "tags" : {
+         "scientific name" : ["Homo"],
+         "name" : ["Homo"],
+         "authority" : ["Homo Linnaeus, 1758"]
+      }
+   },
+   ...
+\end{verbatim}
